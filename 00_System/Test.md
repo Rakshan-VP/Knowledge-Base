@@ -224,67 +224,28 @@ Plain text
 
 ## 7. Mathematics
 
-### 7.1 Inline Math
-
-The equation is $x = y + z$.
-
-### 7.2 Equation
-
+### 7.1 Single equation (baseline)
 $$
+\boxed{
 F = ma
+}
+% id: eq-qiitaasn
 $$
+See [[#^eq-qiitaasn]]  for Newton's second law.
 
-### 7.3 Fractions
-
-$$
-x = \frac{a}{b}
-$$
-
-### 7.4 Integral
-
-$$
-\int_0^T f(t)\,dt
-$$
-
-### 7.5 Summation
-
-$$
-\sum_{i=1}^{n} x_i
-$$
-
-### 7.6 Matrix
-
-$$
-A =
-\begin{bmatrix}
-a_{11} & a_{12} \\
-a_{21} & a_{22}
-\end{bmatrix}
-$$
-
-### 7.7 Vector
-
-$$
-\mathbf{x} =
-\begin{bmatrix}
-x \\
-y \\
-z
-\end{bmatrix}
-$$
-
-### 7.8 Aligned Equations
-
+### 7.2 Aligned block — test numbering
 $$
 \begin{aligned}
 x &= a + b \\
 y &= c + d \\
 z &= x + y
 \end{aligned}
+
+% id: eq-5zmhiiix
 $$
+See [[#^eq-5zmhiiix]]  for the full derivation.
 
 ---
-
 ## 8. Tables
 
 ### 8.1 Basic Table

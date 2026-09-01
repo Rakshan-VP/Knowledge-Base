@@ -86,6 +86,11 @@
     color: #7FB7B0 !important;
     font-weight: 600 !important;
     margin-left: 0 !important;
+
+    /* Remove underline */
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
 }
 
 .markdown-source-view.mod-cm6 .cm-header-3 {
@@ -94,7 +99,17 @@
     color: #7FB7B0 !important;
     font-weight: 600 !important;
     margin-left: 0 !important;
+
+    /* Remove underline */
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
 }
+
+
+/* =========================================
+ *  H3 PREFIX
+ * ========================================= */
 
 .markdown-rendered h3::before {
     content: ">> ";
@@ -162,9 +177,10 @@
     color: #92786F !important;
 }
 
+
 /* =========================================
  *  CENTER INLINE TAGS
- *  ========================================= */
+ * ========================================= */
 
 /* Reading View */
 .markdown-rendered p:has(> a.tag) {

@@ -11,5 +11,7 @@
   "cmdr",
   "obsidian-tasks-plugin",
   "obsidian-git",
-  "homepage"
+  "homepage",
+  "texcore",
+  "dark-pdf-export"
 ]
