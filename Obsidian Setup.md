@@ -12,7 +12,7 @@
 -  Community Plugin >> **Colored Tags** (Get Colored Tags)
 -  Community Plugin >> **File Explorer Note Count**
 -  Community Plugin >> **Code Styler** (Styles Code)
--  Community Plugin >> **File Explorer ++** (To pin notes mainly)
+-  Community Plugin >> **File Explorer ++** (To pin notes main)
 -  Community Plugin >> **Ninja Cursor**
 -  Next Functionality Based Plugins
 -  Community Plugin >> **Omnisearch**
