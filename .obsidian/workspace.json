@@ -15,7 +15,7 @@
               "state": {
                 "file": "Obsidian Setup.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Obsidian Setup"
@@ -49,39 +49,8 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "9c7e01dd61edbf16",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#type",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "bb5e3c3e1fa7700b",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "52dbd605740ad18d",
@@ -137,70 +106,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "ad023eaf39e89558",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Obsidian Setup.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "631fdb4d898c2b67",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Obsidian Setup.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "61b91bfcb7edabbb",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "9a8144ed3ed01692",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Obsidian Setup.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "cb34d892aa4671b6",
@@ -237,7 +145,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e3ede01ad9a23fb4",
+  "active": "07b82a7e3914975f",
   "lastOpenFiles": [
     "Test.md",
     "Projects.md",
