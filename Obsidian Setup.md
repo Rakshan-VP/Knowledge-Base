@@ -8,7 +8,7 @@
 -  Right Side Bar -- Tags & Calendar
 -  Appearance >> Theme >> **Obsidianite**
 -  Community Plugin >> **Iconize** (Go to files and folder to change icon)
--  Community Plugin >> **File Color** (Set Colors to Files and Folder)
+-  Community Plugin >> **File Color** (Set Colors to Files and Foldeer)
 -  Community Plugin >> **Colored Tags** (Get Colored Tags)
 -  Community Plugin >> **File Explorer Note Count**
 -  Community Plugin >> **Code Styler** (Styles Code)
