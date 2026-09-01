@@ -96,19 +96,8 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "07b82a7e3914975f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "cb34d892aa4671b6",
@@ -145,7 +134,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "07b82a7e3914975f",
+  "active": "05b9466347b30dd2",
   "lastOpenFiles": [
     "Test.md",
     "Projects.md",
