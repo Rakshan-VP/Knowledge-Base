@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Obsidianite",
+  "interfaceFontFamily": "Adwaita Mono",
+  "textFontFamily": "Adwaita Mono",
+  "monospaceFontFamily": "Source Code Pro",
+  "enabledCssSnippets": [
+    "headings",
+    "links",
+    "tags",
+    "spacing"
+  ]
+}

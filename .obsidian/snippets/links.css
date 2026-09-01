@@ -1,0 +1,200 @@
+/* ==========================================================
+ *  Enhanced Links & Inline Code
+ *  Reading Mode + Live Preview / Editing Mode
+ *  ========================================================== */
+
+body {
+    --link-external-color: #a13a5e;   /* muted rose */
+    --link-internal-color: #35519e;   /* muted blue */
+    --link-unresolved-color: #5a5a5a;
+}
+
+
+/* ==========================================================
+ *  EXTERNAL LINKS — READING MODE
+ *  ========================================================== */
+
+body .markdown-preview-view a.external-link,
+body .markdown-rendered a.external-link,
+body a.external-link {
+    color: #ffffff !important;
+    background-color: var(--link-external-color) !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    padding: 0.02em 0.3em !important;
+    font-size: 0.95em !important;
+    font-weight: 500 !important;
+    transition: opacity 0.15s ease;
+}
+
+body a.external-link:visited,
+body .markdown-preview-view a.external-link:visited,
+body .markdown-rendered a.external-link:visited {
+    color: #ffffff !important;
+}
+
+body a.external-link:hover,
+body .markdown-preview-view a.external-link:hover,
+body .markdown-rendered a.external-link:hover {
+    opacity: 0.85;
+}
+
+
+/* Remove theme-added external-link arrow */
+body a.external-link::after {
+    content: none !important;
+}
+
+
+/* ==========================================================
+ *  EXTERNAL LINKS — LIVE PREVIEW / EDITING MODE
+ *  ========================================================== */
+
+body .markdown-source-view.mod-cm6 .cm-url,
+body .markdown-source-view.mod-cm6 .cm-url .cm-underline {
+    color: #ffffff !important;
+    background-color: var(--link-external-color) !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    padding: 0.02em 0.3em !important;
+    font-size: 0.95em !important;
+    font-weight: 500 !important;
+    transition: opacity 0.15s ease;
+}
+
+body .markdown-source-view.mod-cm6 .cm-url:hover,
+body .markdown-source-view.mod-cm6 .cm-url:hover .cm-underline {
+    color: #ffffff !important;
+    opacity: 0.85;
+}
+
+
+/* ==========================================================
+ *  INTERNAL LINKS — READING MODE
+ *  ========================================================== */
+
+body .markdown-preview-view a.internal-link,
+body .markdown-rendered a.internal-link,
+body a.internal-link {
+    color: #ffffff !important;
+    background-color: var(--link-internal-color) !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    padding: 0.02em 0.3em !important;
+    font-size: 0.95em !important;
+    font-weight: 500 !important;
+    transition: opacity 0.15s ease;
+}
+
+body a.internal-link:visited,
+body .markdown-preview-view a.internal-link:visited,
+body .markdown-rendered a.internal-link:visited {
+    color: #ffffff !important;
+}
+
+body a.internal-link:hover,
+body .markdown-preview-view a.internal-link:hover,
+body .markdown-rendered a.internal-link:hover {
+    opacity: 0.85;
+}
+
+
+/* ==========================================================
+ *  INTERNAL LINKS — LIVE PREVIEW / EDITING MODE
+ *  ========================================================== */
+
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link,
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline {
+    color: #ffffff !important;
+    background-color: var(--link-internal-color) !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    padding: 0.02em 0.3em !important;
+    font-size: 0.95em !important;
+    font-weight: 500 !important;
+    transition: opacity 0.15s ease;
+}
+
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link:hover,
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link:hover .cm-underline {
+    color: #ffffff !important;
+    opacity: 0.85;
+}
+
+
+/* ==========================================================
+ *  UNRESOLVED INTERNAL LINKS
+ *  ========================================================== */
+
+body a.internal-link.is-unresolved,
+body .markdown-preview-view a.internal-link.is-unresolved,
+body .markdown-rendered a.internal-link.is-unresolved {
+    color: #ffffff !important;
+    background-color: var(--link-unresolved-color) !important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    font-style: italic;
+}
+
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link.is-unresolved,
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link.is-unresolved .cm-underline {
+    color: #ffffff !important;
+    background-color: var(--link-unresolved-color) !important;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    font-style: italic;
+}
+
+
+/* ==========================================================
+ *  CUSTOM DISPLAY NAME / ALIAS
+ *  Example: [[Note|Custom Name]]
+ *  ========================================================== */
+
+body .cm-hmd-internal-link .cm-link-alias,
+body a.internal-link[data-link-path] {
+    font-style: normal !important;
+    text-decoration: none !important;
+}
+
+
+/* ==========================================================
+ *  REMOVE THEME LINK EFFECTS
+ *  ========================================================== */
+
+body .markdown-source-view.mod-cm6 .cm-hmd-internal-link,
+body .markdown-source-view.mod-cm6 .cm-url,
+body .markdown-preview-view a.internal-link,
+body .markdown-preview-view a.external-link,
+body .markdown-rendered a.internal-link,
+body .markdown-rendered a.external-link {
+    background-image: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ==========================================================
+ *  INLINE CODE
+ *  ========================================================== */
+
+body :is(.markdown-preview-view, .markdown-rendered) code,
+body .markdown-source-view.mod-cm6 code {
+    border-radius: 4px;
+}
