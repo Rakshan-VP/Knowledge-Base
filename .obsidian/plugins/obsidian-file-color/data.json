@@ -1,6 +1,154 @@
 {
   "cascadeColors": false,
   "colorBackground": false,
-  "palette": [],
-  "fileColors": []
+  "palette": [
+    {
+      "id": "BuDWIshWRR07jxYyfmsMu",
+      "name": "01",
+      "value": "#e53935"
+    },
+    {
+      "id": "T7RmcDlaSr4hNFzf8CIi8",
+      "name": "02",
+      "value": "#f4511e"
+    },
+    {
+      "id": "ZyNLpzxHQghEJ-emVAEa2",
+      "name": "03",
+      "value": "#fb8c00"
+    },
+    {
+      "id": "_PcBPQgimHC-TnaPhiBVm",
+      "name": "04",
+      "value": "#fdd835"
+    },
+    {
+      "id": "H7Bv1TbbMFq7ID0KdmJRC",
+      "name": "05",
+      "value": "#9ccc65"
+    },
+    {
+      "id": "i-7FErkFCeFF20g_JUuGW",
+      "name": "06",
+      "value": "#43a047"
+    },
+    {
+      "id": "c8BZihwIqVmUFBrm0rtiV",
+      "name": "07",
+      "value": "#00897b"
+    },
+    {
+      "id": "cvr5uiaATXY8GAUzdCrNt",
+      "name": "08",
+      "value": "#00acc1"
+    },
+    {
+      "id": "PoPmIB9MWexUo-SK_LIQv",
+      "name": "09",
+      "value": "#039be5"
+    },
+    {
+      "id": "GtfmzIdub-4h0dyvSUZVF",
+      "name": "10",
+      "value": "#1e88e5"
+    },
+    {
+      "id": "2oWjdDvwv7c278ntKH9JI",
+      "name": "11",
+      "value": "#3949ab"
+    },
+    {
+      "id": "W-VOvhYLgUceC4ki5ck5q",
+      "name": "12",
+      "value": "#5e35b1"
+    },
+    {
+      "id": "hm-JJlTbQcyhCiRGHgndN",
+      "name": "13",
+      "value": "#8e24aa"
+    },
+    {
+      "id": "q9dVKk5vLAnu4ZAK2o6hp",
+      "name": "14",
+      "value": "#d81b60"
+    },
+    {
+      "id": "ykXy3FUlsIBXdPo19O-Q5",
+      "name": "15",
+      "value": "#ad1457"
+    },
+    {
+      "id": "cLuKq4dUCX9DB9UBf3HKx",
+      "name": "16",
+      "value": "#6d1b7b"
+    },
+    {
+      "id": "6Cf0B-BcCUPFki32qbVlU",
+      "name": "17",
+      "value": "#8f63de"
+    },
+    {
+      "id": "Zo6OUVrY70Me07xcBcT-p",
+      "name": "18",
+      "value": "#cca6ac"
+    },
+    {
+      "id": "Aj4HYS2PdN9-eVNz8EyKl",
+      "name": "19",
+      "value": "#ac725e"
+    },
+    {
+      "id": "lUo47IhjLQphJHEfe4G2X",
+      "name": "20",
+      "value": "#cabdbf"
+    },
+    {
+      "id": "ksFTiv3NiCTlDyk7FoXj-",
+      "name": "21",
+      "value": "#5c3d75"
+    },
+    {
+      "id": "W6vYMAAXIhdFGeiJgN73o",
+      "name": "00",
+      "value": "#8f8f8f"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "98_Inbox",
+      "color": "W6vYMAAXIhdFGeiJgN73o"
+    },
+    {
+      "path": "01_Math",
+      "color": "BuDWIshWRR07jxYyfmsMu"
+    },
+    {
+      "path": "02_Robotics",
+      "color": "T7RmcDlaSr4hNFzf8CIi8"
+    },
+    {
+      "path": "03_Control",
+      "color": "ZyNLpzxHQghEJ-emVAEa2"
+    },
+    {
+      "path": "04_Programming",
+      "color": "_PcBPQgimHC-TnaPhiBVm"
+    },
+    {
+      "path": "05_Computer_Science",
+      "color": "H7Bv1TbbMFq7ID0KdmJRC"
+    },
+    {
+      "path": "06_AI",
+      "color": "i-7FErkFCeFF20g_JUuGW"
+    },
+    {
+      "path": "99_Archives",
+      "color": "W6vYMAAXIhdFGeiJgN73o"
+    },
+    {
+      "path": "00_System",
+      "color": "W6vYMAAXIhdFGeiJgN73o"
+    }
+  ]
 }

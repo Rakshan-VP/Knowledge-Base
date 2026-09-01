@@ -1,0 +1,12 @@
+{
+  "markdown:add-metadata-property": [],
+  "workspaces:load": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close": []
+}
