@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_System/Configuration.md",
+                "file": "00_System/Test.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuration"
+              "title": "Test"
             }
           }
         ]
@@ -240,8 +240,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "00_System/Test.md",
     "00_System/DASHBOARD.md",
+    "00_System/Test.md",
     "00_System/Configuration.md",
     "01_Math/Untitled.md",
     "98_Inbox/Obsidian Setup.md",
