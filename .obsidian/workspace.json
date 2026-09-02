@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Math/Probability & Statistics/Gaussian Distribtion.md",
-                "mode": "preview",
+                "file": "00_System/DASHBOARD.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribtion"
+              "title": "DASHBOARD"
+            }
+          },
+          {
+            "id": "6637e6e054d0ab64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Robotics/State Estimation/Kalman Filter.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Kalman Filter"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,8 +154,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5db8c376bff72f40",
@@ -152,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Math/Probability & Statistics/Gaussian Distribtion.md",
+                "file": "02_Robotics/State Estimation/Kalman Filter.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,31 +211,33 @@
       "daily-notes:Open today's daily note": false,
       "canvas:Create new canvas": false,
       "bases:Create new base": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c15ee0b3ffc8c0b9",
+  "active": "6637e6e054d0ab64",
   "lastOpenFiles": [
     "02_Robotics/State Estimation/Kalman Filter.md",
-    "01_Math/Probability & Statistics/Gaussian Distribtion.md",
+    "00_System/Configuration.md",
+    "00_System/Test.md",
+    "01_Math/Probability & Statistics/Gaussian Distribution.md",
+    "02_Robotics/_Implementations",
+    "02_Robotics/_Examples & Applications",
+    "97_Attachments/Excalidraw/KalmanFilter.md",
+    "00_System/DASHBOARD.md",
+    "Excalidraw",
+    "97_Attachments/Excalidraw",
+    "97_Attachments/Images",
     "01_Math/Linear Algebra/SVD.md",
-    "97_Attachments/GaussianDistribution.png",
+    "97_Attachments/Images/GaussianDistribution.png",
     "01_Math/Probability & Statistics",
     "97_Attachments",
-    "00_System/Configuration.md",
-    "00_System/DASHBOARD.md",
     "00_System/Templates/Theory Note.md",
     "00_System/Templates/Simple Note.md",
     "02_Robotics/State Estimation",
-    "00_System/Test.md",
     "01_Math/Linear Algebra",
     "00_System/Templates",
     "98_Inbox/Obsidian Setup.md",
-    "99_Archives",
-    "00_System",
-    "06_AI",
-    "05_Computer_Science",
-    "04_Programming",
     "Home.md",
     "Projects.md",
     "Internal Note.md"
