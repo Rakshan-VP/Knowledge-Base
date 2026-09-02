@@ -1,6 +1,6 @@
 #type/concept #domain/robotics #status/learning #scope/intermediate
 > [!abstract] Summary
-> Briefly explain what it is, what problem it solves, and the main idea.
+> A Kalman filter estimates the true state of a system by combining what the **model predicts** with what the **sensor measures**. It automatically gives more weight to whichever is considered more reliable, making it useful for reducing sensor noise and improving state estimates.
 
 ## Introduction
 The Kalman filter is a smart way to figure out where a moving object really is, even when sensors are noisy and inaccurate. Before **1960**, older math methods had to store and re-calculate every single past measurement, which melted the slow computers of the time. A mathematician named **Rudolf Kálmán** solved this by making the filter need only the current sensor reading and the most recent guess, using almost **no memory**. NASA engineer **Stanley Schmidt** realized this was the breakthrough they needed to steer spacecraft through deep space. In **1969**, it famously ran inside the tiny **Apollo 11** navigation computer, safely guiding astronauts to land on the Moon.
