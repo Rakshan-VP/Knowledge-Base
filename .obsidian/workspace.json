@@ -154,7 +154,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5db8c376bff72f40",
@@ -215,7 +216,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6637e6e054d0ab64",
+  "active": "07b82a7e3914975f",
   "lastOpenFiles": [
     "02_Robotics/State Estimation/Kalman Filter.md",
     "00_System/Configuration.md",
