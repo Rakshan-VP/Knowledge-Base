@@ -13,7 +13,11 @@
     "domain": 1,
     "scope": 4,
     "status": 2,
-    "type": 3
+    "type": 3,
+    "domain/robotics": 1,
+    "scope/intermediate": 1,
+    "status/learning": 1,
+    "type/concept": 1
   },
   "tagColors": {},
   "_version": 4

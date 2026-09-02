@@ -10,5 +10,6 @@
   "readableLineLength": false,
   "showLineNumber": true,
   "livePreview": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true
 }

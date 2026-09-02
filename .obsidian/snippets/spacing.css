@@ -12,8 +12,8 @@
 
 .markdown-preview-view h3,
 .markdown-rendered h3 {
-    margin-top: 1.2em !important;
-    margin-bottom: 0.5em !important;
+    margin-top: 1.1em !important;
+    margin-bottom: 0.0em !important;
 }
 
 
@@ -29,5 +29,5 @@
 
 .markdown-source-view.mod-cm6 .HyperMD-header-3 {
     padding-top: 1.2em !important;
-    padding-bottom: 0.5em !important;
+    padding-bottom: 0.0em !important;
 }
