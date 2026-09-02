@@ -1,4 +1,3 @@
-
 ## Introduction
 
 Configuration reference for the vault's **appearance, organization, plugins, and note conventions**.

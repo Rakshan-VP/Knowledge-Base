@@ -1,6 +1,6 @@
 {
-  "cascadeColors": false,
-  "colorBackground": false,
+  "cascadeColors": true,
+  "colorBackground": true,
   "palette": [
     {
       "id": "BuDWIshWRR07jxYyfmsMu",
