@@ -1,7 +1,7 @@
 {
   "palette": {
     "seed": 0,
-    "selected": "custom",
+    "selected": "adaptive-soft",
     "custom": "ffd918-ffa635-ff7252-ff3f6f-c63273-8d2577-54187b"
   },
   "mixColors": true,
