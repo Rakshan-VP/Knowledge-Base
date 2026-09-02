@@ -7,7 +7,7 @@
   "mixColors": true,
   "transition": true,
   "accessibility": {
-    "highTextContrast": false
+    "highTextContrast": true
   },
   "knownTags": {
     "domain": 1,
