@@ -165,8 +165,6 @@ The Kalman filter continuously balances the uncertainty of the **model predictio
 - Requires **matrix operations/inversion**, which can become expensive for high-dimensional systems.
 ## Related Links
 ### Examples
-- [[Gaussian Distribution]]
-- [[Kalman Filter]]
 ### Notes
 - [[Gaussian Distribution]]
 ## References
