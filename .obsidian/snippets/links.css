@@ -198,3 +198,11 @@ body :is(.markdown-preview-view, .markdown-rendered) code,
 body .markdown-source-view.mod-cm6 code {
     border-radius: 4px;
 }
+
+/* =========================================
+ *  ACTIVE / CURRENT LINE
+ * ========================================= */
+
+.markdown-source-view.mod-cm6 .cm-active {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+}
