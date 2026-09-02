@@ -14,8 +14,11 @@
     "scope": 4,
     "status": 2,
     "type": 3,
+    "domain/math": 2,
     "domain/robotics": 1,
+    "scope/fundamental": 2,
     "scope/intermediate": 1,
+    "status/completed": 2,
     "status/learning": 1,
     "type/concept": 1
   },

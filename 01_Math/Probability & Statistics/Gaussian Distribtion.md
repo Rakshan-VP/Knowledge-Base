@@ -1,6 +1,6 @@
-#type #domain #status #scope
+#type/concept  #domain/math #status/completed  #scope/fundamental
 > [!abstract] Summary 
-> One or two sentences explaining the main idea.
+A Gaussian distribution models data that naturally clumps around a central average, where large deviations become exponentially rare because countless tiny, random errors cancel each other out. Mathematically, it is defined solely by its mean and variance, making it the bedrock of error analysis and estimation algorithms like the Kalman filter.
 ## Introduction
 The Gaussian distribution, or **bell curve**, describes data that naturally bunches up around an average with rare extremes. **Abraham de Moivre** discovered it in **1733** while calculating odds for coin-flip gambling games. Later in **1809**, **Carl Friedrich Gauss** used it to solve a major astronomy problem: tracking planets when telescope measurements were constantly noisy and imprecise. Whenever you measure something in the real world, tiny random errors—like shaking hands, wind, or blurry optics—naturally push your readings slightly off target. Gauss invented this formula to prove that taking the average of all those noisy measurements gives you the closest guess to the real truth.
 
@@ -104,8 +104,7 @@ $$
 
 ## Related
 
-- [[Related Note 1]]
-- [[Related Note 2]]
+- [[Kalman Filter]]
 
 ## References
 

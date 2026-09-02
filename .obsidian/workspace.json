@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#status",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,12 +199,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "07b82a7e3914975f",
+  "active": "c15ee0b3ffc8c0b9",
   "lastOpenFiles": [
-    "01_Math/Linear Algebra/SVD.md",
-    "01_Math/Probability & Statistics/Gaussian Distribtion.md",
-    "97_Attachments/GaussianDistribution.png",
     "02_Robotics/State Estimation/Kalman Filter.md",
+    "01_Math/Probability & Statistics/Gaussian Distribtion.md",
+    "01_Math/Linear Algebra/SVD.md",
+    "97_Attachments/GaussianDistribution.png",
     "01_Math/Probability & Statistics",
     "97_Attachments",
     "00_System/Configuration.md",
