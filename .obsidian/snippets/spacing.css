@@ -1,9 +1,20 @@
 /* ==========================================================
  *  CONSISTENT H2 / H3 SPACING
  *  Reading Mode + Live Preview
- *  ========================================================== */
+ * ========================================================== */
 
-/* Reading Mode */
+/* ----------------------------------------------------------
+ *  CORE VARIABLES (Forces Obsidian's layout engine to collapse gaps)
+ * ---------------------------------------------------------- */
+.markdown-rendered,
+.markdown-source-view.mod-cm6 .cm-content {
+    --heading-spacing: 0.15em !important;
+    --h3-line-height: 1.15 !important;
+}
+
+/* ----------------------------------------------------------
+ *  READING MODE
+ * ---------------------------------------------------------- */
 .markdown-preview-view h2,
 .markdown-rendered h2 {
     margin-top: 1.5em !important;
@@ -13,21 +24,47 @@
 .markdown-preview-view h3,
 .markdown-rendered h3 {
     margin-top: 1.1em !important;
-    margin-bottom: 0.0em !important;
+    margin-bottom: 0.1em !important;
+    padding-bottom: 0px !important;
+    line-height: var(--h3-line-height) !important;
 }
 
+/* Strip top margin from the very first element right after H3 */
+.markdown-rendered h3 + * {
+    margin-top: 0.15em !important;
+    padding-top: 0px !important;
+}
 
-/* Live Preview
- * Only controls visual spacing between lines.
- * Does not modify .cm-line margins.
- */
+/* If there is a blank line between H3 and text, collapse it */
+.markdown-rendered h3 + p:empty,
+.markdown-rendered h3 + p:has(> br:only-child) {
+    display: none !important;
+}
 
-.markdown-source-view.mod-cm6 .HyperMD-header-2 {
+/* ----------------------------------------------------------
+ *  LIVE PREVIEW (CodeMirror 6)
+ * ---------------------------------------------------------- */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 {
     padding-top: 1.5em !important;
     padding-bottom: 0.5em !important;
 }
 
-.markdown-source-view.mod-cm6 .HyperMD-header-3 {
-    padding-top: 1.2em !important;
-    padding-bottom: 0.0em !important;
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 {
+    padding-top: 1.1em !important;
+    padding-bottom: 0.1em !important;
+    line-height: var(--h3-line-height) !important;
+}
+
+/* Target the line directly beneath H3 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 + .cm-line {
+    padding-top: 0.1em !important;
+    margin-top: 0px !important;
+}
+
+/* Collapse empty newline lines right below H3 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 + .cm-line:empty,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 + .cm-line:has(br:only-child) {
+    height: 0.2em !important;
+    min-height: 0.2em !important;
+    padding: 0px !important;
 }

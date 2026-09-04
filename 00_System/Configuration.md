@@ -120,8 +120,7 @@ Defines **what the note is**.
 - `method` — Explains how to perform or solve something.
 - `reference` — Quick-lookup information.
 - `derivation` — Shows how something is mathematically or logically obtained. 
-- `application` — Shows practical use of a concept. 
-- `example` — Demonstrates a concept or method with a specific case.
+- `application` — Shows use of a concept. 
 - `implementation` — Describes a software or hardware realization.
 ### Domain
 
