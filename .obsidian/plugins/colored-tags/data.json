@@ -21,7 +21,8 @@
     "scope/intermediate": 1,
     "status/completed": 2,
     "status/learning": 1,
-    "type/concept": 1
+    "type/concept": 1,
+    "type/method": 2
   },
   "tagColors": {},
   "_version": 4

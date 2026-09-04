@@ -5,48 +5,55 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:01_Math  ",
+      "query": "tag:#type/concept tag:#type/method  ",
       "color": {
         "a": 1,
-        "rgb": 15022389
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:02_Robotics  ",
+      "query": "tag:#type/method  ",
       "color": {
         "a": 1,
-        "rgb": 16011550
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:03_Control  ",
+      "query": "tag:#type/reference ",
       "color": {
         "a": 1,
-        "rgb": 16485376
+        "rgb": 5431378
       }
     },
     {
-      "query": "path:04_Programming  ",
+      "query": "tag:#type/derivation ",
       "color": {
         "a": 1,
-        "rgb": 16635957
+        "rgb": 5431378
       }
     },
     {
-      "query": "path:05_Computer_Science  ",
+      "query": "tag:#type/example ",
       "color": {
         "a": 1,
-        "rgb": 10275941
+        "rgb": 14732626
       }
     },
     {
-      "query": "path:06_AI  ",
+      "query": "tag:#type/implementation ",
       "color": {
         "a": 1,
-        "rgb": 4431943
+        "rgb": 14732626
+      }
+    },
+    {
+      "query": "tag:#type/application ",
+      "color": {
+        "a": 1,
+        "rgb": 14732626
       }
     }
   ],
@@ -61,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.4444444444444444,
-  "close": true
+  "close": false
 }

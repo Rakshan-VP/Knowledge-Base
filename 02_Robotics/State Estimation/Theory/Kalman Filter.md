@@ -1,4 +1,4 @@
-#type/concept #domain/robotics #status/learning #scope/intermediate
+#type/concept #type/method #domain/robotics #status/learning #scope/intermediate
 > [!abstract] Summary
 > A Kalman filter estimates the true state of a system by combining what the **model predicts** with what the **sensor measures**. It automatically gives more weight to whichever is considered more reliable, making it useful for reducing sensor noise and improving state estimates.
 
