@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "02_Robotics/State Estimation/Theory/Kalman Filter.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -200,7 +200,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "07b82a7e3914975f",
+  "active": "611ddff47d550049",
   "lastOpenFiles": [
     "00_System/DASHBOARD.md",
     "02_Robotics/State Estimation/Theory/Kalman Filter.md",
