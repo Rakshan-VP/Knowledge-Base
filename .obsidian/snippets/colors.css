@@ -17,7 +17,7 @@
  * ========================================================= */
 
 :root {
-    --c-title: #EBDBB2;
+    --c-title: #FBF1C7;
     --c-h2: #FE8019;      /* burnt orange */
     --c-h3: #8EC07C;      /* bright aqua */
     --c-h4: #BDAE93;      /* warm grey-tan */
@@ -92,41 +92,25 @@
 
 
 /* ---------------------------------------------------------
- * H2 — SIDE CIRCLE
+ * H2 — SIDE CIRCLE (same size both modes)
  * --------------------------------------------------------- */
 
-.theme-dark .markdown-rendered h2::before {
-    content: "";
-    display: inline-block;
-
-    width: 0.42em;
-    height: 0.42em;
-
-    margin-right: 0.45em;
-
-    border-radius: 50%;
-    background: var(--c-h2-circle) !important;
-
-    vertical-align: 0.08em;
-}
-
-
-/* Live Preview H2 circle */
+.theme-dark .markdown-rendered h2::before,
 .theme-dark
 .markdown-source-view.mod-cm6
 .cm-line.HyperMD-header-2::before {
     content: "";
     display: inline-block;
 
-    width: 0.55em;
-    height: 0.55em;
+    width: 0.46em;
+    height: 0.46em;
 
     margin-right: 0.45em;
 
     border-radius: 50%;
     background: var(--c-h2-circle) !important;
 
-    vertical-align: 0.02em;
+    vertical-align: 0.05em;
 }
 
 
@@ -150,42 +134,27 @@
 }
 
 
+
 /* ---------------------------------------------------------
- * H3 — SIDE CIRCLE
+ * H3 — SIDE CIRCLE (same size both modes)
  * --------------------------------------------------------- */
 
-.theme-dark .markdown-rendered h3::before {
-    content: "";
-    display: inline-block;
-
-    width: 0.46em;
-    height: 0.46em;
-
-    margin-right: 0.48em;
-
-    border-radius: 50%;
-    background: var(--c-h3-circle) !important;
-
-    vertical-align: 0.08em;
-}
-
-
-/* Live Preview H3 circle */
+.theme-dark .markdown-rendered h3::before,
 .theme-dark
 .markdown-source-view.mod-cm6
 .cm-line.HyperMD-header-3::before {
     content: "";
     display: inline-block;
 
-    width: 0.50em;
-    height: 0.50em;
+    width: 0.48em;
+    height: 0.48em;
 
     margin-right: 0.48em;
 
     border-radius: 50%;
     background: var(--c-h3-circle) !important;
 
-    vertical-align: 0.02em;
+    vertical-align: 0.05em;
 }
 
 
@@ -342,7 +311,7 @@
  * 12. LINKS — INTERNAL vs EXTERNAL (underline killer)
  * ========================================================= */
 
-/* Maximum specificity override — targets any anchor with an href */
+/* Reading view — maximum specificity override */
 body.theme-dark .markdown-rendered a[href],
 body.theme-dark .markdown-rendered a[href]:hover,
 body.theme-dark .markdown-rendered a[href]:visited,
@@ -357,37 +326,62 @@ body.theme-dark .markdown-preview-view a[href] {
     background-image: none !important;
 }
 
-/* Internal links */
 body.theme-dark .markdown-rendered a.internal-link[href] {
     color: var(--c-link-internal) !important;
     -webkit-text-fill-color: var(--c-link-internal) !important;
     text-decoration: none !important;
 }
 
-/* External links */
 body.theme-dark .markdown-rendered a.external-link[href] {
     color: var(--c-link-external) !important;
     -webkit-text-fill-color: var(--c-link-external) !important;
     text-decoration: none !important;
 }
 
-/* Live Preview / source mode — internal (wikilinks) */
+/* Live Preview — internal wikilink text [[Note]] */
 body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-internal-link,
-body.theme-dark .markdown-source-view.mod-cm6 span.cm-hmd-internal-link {
+body.theme-dark .markdown-source-view.mod-cm6 span.cm-hmd-internal-link,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-internal-link.cm-underline {
     color: var(--c-link-internal) !important;
     -webkit-text-fill-color: var(--c-link-internal) !important;
     text-decoration: none !important;
+    border-bottom: none !important;
 }
 
-/* Live Preview / source mode — external (markdown links) */
+/* Live Preview — internal link formatting marks: [[ ]] and | alias pipe */
+body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link-string {
+    color: var(--c-link-internal) !important;
+    -webkit-text-fill-color: var(--c-link-internal) !important;
+    opacity: 0.7;
+}
+
+/* Live Preview — external markdown link [text](url), both portions */
 body.theme-dark .markdown-source-view.mod-cm6 .cm-link,
 body.theme-dark .markdown-source-view.mod-cm6 .cm-url,
 body.theme-dark .markdown-source-view.mod-cm6 span.cm-link,
-body.theme-dark .markdown-source-view.mod-cm6 span.cm-url {
+body.theme-dark .markdown-source-view.mod-cm6 span.cm-url,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-string.cm-url,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-link.cm-url {
     color: var(--c-link-external) !important;
     -webkit-text-fill-color: var(--c-link-external) !important;
     text-decoration: none !important;
+    border-bottom: none !important;
 }
+
+/* Live Preview — external link's own [ ] ( ) formatting brackets */
+body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link + .cm-link,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-link.cm-formatting-link {
+    color: var(--c-link-external) !important;
+    -webkit-text-fill-color: var(--c-link-external) !important;
+}
+
+/* Catch-all — kill underline on any link-related span in Live Preview */
+body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
 
 /* =========================================================
  * 13. INLINE CODE
