@@ -200,50 +200,38 @@ body {
 /* =========================================================
  * 14. LIVE PREVIEW
  * ---------------------------------------------------------
- * Use the SAME sizes and spacing as Reading View.
- * Uses margin (not padding) to match Reading View behavior.
+ * Match heading sizes while preserving CodeMirror's
+ * native line geometry. Do NOT use margins on .cm-line.
  * ========================================================= */
 
 .mod-cm6 .cm-line.HyperMD-header-1 {
     font-size: var(--h1-size) !important;
     line-height: 1.15 !important;
-    margin-top: var(--h1-spacing-top) !important;
-    margin-bottom: var(--h1-spacing-bottom) !important;
 }
 
 .mod-cm6 .cm-line.HyperMD-header-2 {
     font-size: var(--h2-size) !important;
     line-height: 1.2 !important;
-    margin-top: var(--h2-spacing-top) !important;
-    margin-bottom: var(--h2-spacing-bottom) !important;
 }
 
 .mod-cm6 .cm-line.HyperMD-header-3 {
     font-size: var(--h3-size) !important;
     line-height: 1.3 !important;
-    margin-top: var(--h3-spacing-top) !important;
-    margin-bottom: var(--h3-spacing-bottom) !important;
 }
 
 .mod-cm6 .cm-line.HyperMD-header-4 {
     font-size: var(--h4-size) !important;
     line-height: 1.35 !important;
-    margin-top: var(--h4-spacing-top) !important;
-    margin-bottom: var(--h4-spacing-bottom) !important;
 }
 
 .mod-cm6 .cm-line.HyperMD-header-5 {
     font-size: var(--h5-size) !important;
     line-height: 1.4 !important;
-    margin-top: var(--h5-spacing-top) !important;
-    margin-bottom: var(--h5-spacing-bottom) !important;
 }
 
 .mod-cm6 .cm-line.HyperMD-header-6 {
     font-size: var(--h6-size) !important;
     line-height: 1.4 !important;
-    margin-top: var(--h6-spacing-top) !important;
-    margin-bottom: var(--h6-spacing-bottom) !important;
 }
 
 

@@ -8,7 +8,6 @@
 ## Concept
 
 A Kalman filter estimates the current system state by combining a **model-based prediction** with a **measurement**.
-
 ### System Representation
 
 The system is represented by the discrete-time state-space model:
@@ -24,16 +23,16 @@ $$
 
 where:
 
-|Symbol|Meaning|
-|---|---|
-|$x_k$|True state at time $k$|
-|$A$|State transition matrix|
-|$B$|Control-input matrix|
-|$u_k$|Known input/control|
-|$w_k$|Process noise|
-|$z_k$|Measurement|
-|$C$|Measurement matrix|
-|$v_k$|Measurement noise|
+| Symbol | Meaning                 |
+| ------ | ----------------------- |
+| $x_k$  | True state at time $k$  |
+| $A$    | State transition matrix |
+| $B$    | Control-input matrix    |
+| $u_k$  | Known input/control     |
+| $w_k$  | Process noise           |
+| $z_k$  | Measurement             |
+| $C$    | Measurement matrix      |
+| $v_k$  | Measurement noise       |
 
 The process and measurement noises are assumed to be zero-mean [[Gaussian Distribution|Gaussian]]:
 
@@ -163,10 +162,14 @@ The Kalman filter continuously balances the uncertainty of the **model predictio
 - **Bias and unmodeled disturbances** can cause persistent estimation errors unless explicitly modeled.
 - Poorly chosen $Q$, $R$, or initial $P$ can cause **slow convergence or noisy estimates**.
 - Requires **matrix operations/inversion**, which can become expensive for high-dimensional systems.
+
 ## Related Links
+
 ### Examples
+
 ### Notes
 - [[Gaussian Distribution]]
-## References
+
+### External
 - [Why Use Kalman Filters? | Understanding Kalman Filters, Part 1](https://www.youtube.com/watch?v=mwn8xhgNpFY)
 - [Optimal State Estimator Algorithm | Understanding Kalman Filters, Part 4](https://www.youtube.com/watch?v=VFXf1lIZ3p8)

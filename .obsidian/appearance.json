@@ -5,9 +5,9 @@
   "monospaceFontFamily": "Source Code Pro",
   "enabledCssSnippets": [
     "tags",
-    "format",
     "floatingpanels",
-    "colors"
+    "colors",
+    "format"
   ],
   "theme": "obsidian",
   "showRibbon": false,

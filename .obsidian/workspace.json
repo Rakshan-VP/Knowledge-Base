@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5c0253c43167c12",
+        "id": "112554dc5c9608e9",
         "type": "tabs",
         "children": [
           {
-            "id": "b91b1d437e95afbb",
+            "id": "611ddff47d550049",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,13 +204,13 @@
   "lastOpenFiles": [
     "00_System/DASHBOARD.md",
     "02_Robotics/State Estimation/Theory/Kalman Filter.md",
+    "02_Robotics/State Estimation/Practice/Untitled.md",
     "01_Math/Probability & Statistics/Gaussian Distribution.md",
     "01_Math/Probability & Statistics/Covariance Matrix.md",
     "01_Math/Linear Algebra/SVD.md",
     "Excalidraw/Drawing 2026-09-12 11.42.31.excalidraw.md",
     "Excalidraw",
     "98_Inbox/State Space.md",
-    "02_Robotics/State Estimation/Practice/Untitled.md",
     "98_Inbox/Statistics Probab.md",
     "01_Math/Probability & Statistics/Statistical Measures.md",
     "00_System/Configuration.md",
