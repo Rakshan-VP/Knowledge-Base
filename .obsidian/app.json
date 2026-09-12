@@ -13,5 +13,7 @@
   "defaultViewMode": "preview",
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "97_Attachments"
 }

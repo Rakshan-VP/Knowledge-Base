@@ -41,6 +41,11 @@
     --c-tag-bg: #427B58;
     --c-tag-bg-hover: #689D6A;
     --c-tag-text: #FFFFFF;
+
+    /* Note callout */
+    --c-note-border: #458588;      /* same teal-blue as internal links */
+    --c-note-bg: rgba(69, 133, 136, 0.12);
+    --c-note-title: #83A598;
 }
 
 /* =========================================================
@@ -452,4 +457,43 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
 
 .theme-dark ::selection {
     background: #5A4825 !important;
+}
+
+
+/* =========================================================
+ * 17. CALLOUT — NOTE
+ * ========================================================= */
+
+.theme-dark .callout[data-callout="note"] {
+    --callout-color: 69, 133, 136;
+
+    background-color: var(--c-note-bg) !important;
+
+    border: 1.5px solid var(--c-note-border) !important;
+    border-radius: 8px !important;
+
+    padding: 0.75em 1em !important;
+    margin: 1em 0 !important;
+
+    box-shadow: none !important;
+}
+
+.theme-dark .callout[data-callout="note"] .callout-title {
+    color: var(--c-note-title) !important;
+    -webkit-text-fill-color: var(--c-note-title) !important;
+
+    font-weight: 600 !important;
+}
+
+.theme-dark .callout[data-callout="note"] .callout-title-inner {
+    color: var(--c-note-title) !important;
+    -webkit-text-fill-color: var(--c-note-title) !important;
+}
+
+.theme-dark .callout[data-callout="note"] .callout-icon {
+    color: var(--c-note-border) !important;
+}
+
+.theme-dark .callout[data-callout="note"] .callout-content {
+    padding-top: 0.35em !important;
 }
