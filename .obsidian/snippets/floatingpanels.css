@@ -1,0 +1,326 @@
+/* =========================================================
+ * OBSIDIAN — UNIFORM FLOATING WORKSPACE
+ * ========================================================= */
+
+
+/* =========================================================
+ * 1. WORKSPACE
+ * ========================================================= */
+
+.workspace {
+    background: var(--background-primary) !important;
+}
+
+
+/* =========================================================
+ * 2. REMOVE NATIVE SPLIT / DOCK FRAMES
+ * ========================================================= */
+
+.workspace-split,
+.workspace-split.mod-horizontal,
+.workspace-split.mod-vertical,
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split,
+.workspace-split.mod-root {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+ * 3. FLOATING PANES
+ * ========================================================= */
+
+.workspace-leaf {
+    margin: 4px !important;
+
+    box-sizing: border-box !important;
+
+    border: 1px solid var(--background-modifier-border) !important;
+    border-radius: 12px !important;
+
+    overflow: hidden !important;
+    box-shadow: none !important;
+}
+
+.workspace-leaf-content {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+
+/* Remove native split divider */
+.workspace-leaf-resize-handle {
+    background: transparent !important;
+    border: none !important;
+}
+
+
+/* =========================================================
+ * 4. LEFT RIBBON — FLOATING PANEL
+ * ========================================================= */
+
+.workspace-ribbon,
+.side-dock-ribbon {
+    width: 40px !important;
+
+    margin: 45px 3px 15px 6px !important;
+
+    background: var(--background-secondary) !important;
+
+    border: 1px solid var(--background-modifier-border) !important;
+    border-radius: 12px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+}
+
+
+/* Ribbon buttons */
+.workspace-ribbon .clickable-icon,
+.side-dock-ribbon .side-dock-ribbon-action {
+    width: 32px !important;
+    height: 32px !important;
+
+    margin: 3px auto !important;
+    padding: 6px !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 8px !important;
+
+    background: transparent !important;
+    border: none !important;
+}
+
+
+/* Ribbon icons */
+.workspace-ribbon .svg-icon,
+.side-dock-ribbon .svg-icon {
+    color: var(--text-muted) !important;
+    opacity: 0.75 !important;
+}
+
+
+/* Ribbon hover */
+.workspace-ribbon .clickable-icon:hover,
+.side-dock-ribbon .side-dock-ribbon-action:hover {
+    background: var(--background-modifier-hover) !important;
+}
+
+.workspace-ribbon .clickable-icon:hover .svg-icon,
+.side-dock-ribbon .side-dock-ribbon-action:hover .svg-icon {
+    color: var(--text-normal) !important;
+    opacity: 1 !important;
+}
+
+/* =========================================================
+ * 5. LEFT RIBBON COLLAPSE BUTTON
+ * ========================================================= */
+
+.workspace-ribbon-collapse-btn {
+    width: 32px !important;
+    height: 32px !important;
+
+    padding: 6px !important;
+    box-sizing: border-box !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    /* Put it inside the floating ribbon */
+    position: absolute !important;
+    top: 4px !important;
+    left: 4px !important;
+
+    border-radius: 8px !important;
+
+    background: var(--background-secondary) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Icon */
+.workspace-ribbon-collapse-btn .svg-icon {
+    width: 20px !important;
+    height: 20px !important;
+
+    color: var(--text-muted) !important;
+    opacity: 0.75 !important;
+}
+
+
+/* Hover */
+.workspace-ribbon-collapse-btn:hover {
+    background: var(--background-modifier-hover) !important;
+}
+
+.workspace-ribbon-collapse-btn:hover .svg-icon {
+    color: var(--text-normal) !important;
+    opacity: 1 !important;
+}
+
+
+/* =========================================================
+ * 6. TAB BAR
+ * ========================================================= */
+
+.workspace-tab-header-container {
+    background: transparent !important;
+
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.workspace-tab-header {
+    background: transparent !important;
+
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Active tab */
+.workspace-tab-header.is-active {
+    background: var(--background-primary) !important;
+    border-radius: 8px !important;
+}
+
+
+/* =========================================================
+ * 7. TAB ICONS
+ * ========================================================= */
+
+.workspace-tab-header-inner-icon,
+.workspace-tab-header-inner-close-button,
+.workspace-tab-header-inner-icon .svg-icon,
+.workspace-tab-header-inner-close-button .svg-icon {
+    color: var(--text-muted) !important;
+    opacity: 0.75 !important;
+}
+
+
+/* Active tab icons */
+.workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
+    color: var(--text-normal) !important;
+    opacity: 0.9 !important;
+}
+
+
+/* Hover */
+.workspace-tab-header:hover .workspace-tab-header-inner-icon,
+.workspace-tab-header:hover .workspace-tab-header-inner-close-button {
+    color: var(--text-normal) !important;
+    opacity: 1 !important;
+}
+
+
+/* =========================================================
+ * 8. VIEW HEADER ICONS
+ * ========================================================= */
+
+.view-header-icon,
+.view-actions .clickable-icon,
+.view-actions .svg-icon {
+    color: var(--text-muted) !important;
+    opacity: 0.75 !important;
+}
+
+
+/* Hover */
+.view-header-icon:hover,
+.view-actions .clickable-icon:hover {
+    color: var(--text-normal) !important;
+    opacity: 1 !important;
+}
+
+
+/* =========================================================
+ * 9. REMOVE HEADER SEPARATORS
+ * ========================================================= */
+
+.view-header,
+.workspace-tabs,
+.workspace-tabs-container {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+ * 10. SIDEBAR CONTENT
+ * ========================================================= */
+
+.nav-files-container,
+.workspace-leaf-content > .view-content {
+    border: none !important;
+}
+
+
+/* Prevent unwanted sidebar shadows */
+.workspace-split.mod-left-split .workspace-leaf,
+.workspace-split.mod-right-split .workspace-leaf {
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+ * 11. VAULT NAME / SETTINGS AREA
+ * ========================================================= */
+
+.workspace-sidedock-vault-profile {
+    background: var(--background-primary) !important;
+
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+ * 12. LEFT SIDEBAR / RIBBON SEPARATION
+ * ========================================================= */
+
+.workspace-split.mod-left-split {
+    margin-left: 4px !important;
+}
+
+.workspace-split.mod-left-split .workspace-leaf:first-child {
+    margin-left: 6px !important;
+}
+
+
+/* =========================================================
+ * 13. BOTTOM ROUNDED CORNERS
+ * ========================================================= */
+
+.workspace-tab-container {
+    padding-bottom: 4px !important;
+    box-sizing: border-box !important;
+}
+
+
+/* Main editor */
+.workspace-split.mod-root .workspace-tab-container {
+    padding-bottom: 6px !important;
+}
+
+
+/* Left and right sidebars */
+.workspace-split.mod-left-split .workspace-tab-container,
+.workspace-split.mod-right-split .workspace-tab-container {
+    padding-bottom: 4px !important;
+}
+
+
+/* Ensure rounded bottom edges are clipped */
+.workspace-leaf,
+.workspace-leaf-content {
+    overflow: hidden !important;
+}
+
+

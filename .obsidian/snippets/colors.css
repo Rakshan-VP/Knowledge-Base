@@ -1,0 +1,461 @@
+/* =========================================================
+ * OBSIDIANITE — COMPLETE COLORS
+ * ---------------------------------------------------------
+ * Colors only.
+ * H2/H3 side circles included.
+ * No title < > decoration.
+ * ========================================================= */
+
+
+/* =========================================================
+ * 1. PALETTE — ORCASLICER INSPIRED / GRUVBOX
+ * ---------------------------------------------------------
+ * Dark neutral foundation
+ * Warm amber primary accent
+ * Muted cool secondary hierarchy
+ * Soft warm emphasis
+ * ========================================================= */
+
+:root {
+    --c-title: #EBDBB2;
+    --c-h2: #FE8019;      /* burnt orange */
+    --c-h3: #8EC07C;      /* bright aqua */
+    --c-h4: #BDAE93;      /* warm grey-tan */
+    --c-h5: #A89984;
+    --c-h6: #7C6F64;
+    --c-h2-circle: #FE8019;
+    --c-h3-circle: #8EC07C;
+    --c-bold: #FABD2F;    /* gold */
+    --c-bold-marker: #B57614;
+    --c-italic: #D3869B;  /* dusty pink */
+    --c-italic-marker: #A35E70;
+
+    /* Links — deeper, calmer, clearly separated hues */
+    --c-link-internal: #458588;  /* gruvbox deep teal-blue — wikilinks */
+    --c-link-external: #EA6962;  /* gruvbox soft coral-red — external links */
+
+    --c-code: #BDAE93;
+    --c-quote: #D65D0E;
+
+    /* Tags — teal-green pills, slightly taller */
+    --c-tag-bg: #427B58;
+    --c-tag-bg-hover: #689D6A;
+    --c-tag-text: #FFFFFF;
+}
+
+/* =========================================================
+ * 2. NOTE TITLE
+ * ---------------------------------------------------------
+ * No < > prefix/suffix.
+ * ========================================================= */
+
+.theme-dark .inline-title {
+    color: var(--c-title) !important;
+    -webkit-text-fill-color: var(--c-title) !important;
+}
+
+
+/* =========================================================
+ * 3. H1
+ * ========================================================= */
+
+.theme-dark .markdown-rendered h1,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-1 {
+    color: var(--c-title) !important;
+    -webkit-text-fill-color: var(--c-title) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+
+/* =========================================================
+ * 4. H2 — ORANGE
+ * ========================================================= */
+
+.theme-dark .markdown-rendered h2,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-2 {
+    color: var(--c-h2) !important;
+    -webkit-text-fill-color: var(--c-h2) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ---------------------------------------------------------
+ * H2 — SIDE CIRCLE
+ * --------------------------------------------------------- */
+
+.theme-dark .markdown-rendered h2::before {
+    content: "";
+    display: inline-block;
+
+    width: 0.42em;
+    height: 0.42em;
+
+    margin-right: 0.45em;
+
+    border-radius: 50%;
+    background: var(--c-h2-circle) !important;
+
+    vertical-align: 0.08em;
+}
+
+
+/* Live Preview H2 circle */
+.theme-dark
+.markdown-source-view.mod-cm6
+.cm-line.HyperMD-header-2::before {
+    content: "";
+    display: inline-block;
+
+    width: 0.55em;
+    height: 0.55em;
+
+    margin-right: 0.45em;
+
+    border-radius: 50%;
+    background: var(--c-h2-circle) !important;
+
+    vertical-align: 0.02em;
+}
+
+
+/* =========================================================
+ * 5. H3 — OLIVE GREEN
+ * ========================================================= */
+
+.theme-dark .markdown-rendered h3,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-3 {
+    color: var(--c-h3) !important;
+    -webkit-text-fill-color: var(--c-h3) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ---------------------------------------------------------
+ * H3 — SIDE CIRCLE
+ * --------------------------------------------------------- */
+
+.theme-dark .markdown-rendered h3::before {
+    content: "";
+    display: inline-block;
+
+    width: 0.46em;
+    height: 0.46em;
+
+    margin-right: 0.48em;
+
+    border-radius: 50%;
+    background: var(--c-h3-circle) !important;
+
+    vertical-align: 0.08em;
+}
+
+
+/* Live Preview H3 circle */
+.theme-dark
+.markdown-source-view.mod-cm6
+.cm-line.HyperMD-header-3::before {
+    content: "";
+    display: inline-block;
+
+    width: 0.50em;
+    height: 0.50em;
+
+    margin-right: 0.48em;
+
+    border-radius: 50%;
+    background: var(--c-h3-circle) !important;
+
+    vertical-align: 0.02em;
+}
+
+
+/* =========================================================
+ * 6. H4
+ * ========================================================= */
+
+.theme-dark .markdown-rendered h4,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-4 {
+    color: var(--c-h4) !important;
+    -webkit-text-fill-color: var(--c-h4) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+
+/* =========================================================
+ * 7. H5
+ * ========================================================= */
+
+.theme-dark .markdown-rendered h5,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-5 {
+    color: var(--c-h5) !important;
+    -webkit-text-fill-color: var(--c-h5) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+
+/* =========================================================
+ * 8. H6
+ * ========================================================= */
+
+.theme-dark .markdown-rendered h6,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-6 {
+    color: var(--c-h6) !important;
+    -webkit-text-fill-color: var(--c-h6) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+
+/* =========================================================
+ * 9. BOLD — GOLD
+ * ========================================================= */
+
+.theme-dark .markdown-rendered strong,
+.theme-dark .markdown-rendered b {
+    color: var(--c-bold) !important;
+    -webkit-text-fill-color: var(--c-bold) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+
+    font-weight: 650 !important;
+}
+
+
+/* Live Preview */
+.theme-dark .markdown-source-view.mod-cm6 .cm-strong,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line .cm-strong {
+    color: var(--c-bold) !important;
+    -webkit-text-fill-color: var(--c-bold) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+
+    font-weight: 650 !important;
+}
+
+
+/* Bold markdown markers */
+.theme-dark
+.markdown-source-view.mod-cm6
+.cm-formatting-strong {
+    color: var(--c-bold-marker) !important;
+    -webkit-text-fill-color: var(--c-bold-marker) !important;
+}
+
+
+/* =========================================================
+ * 10. ITALIC — DUSTY PINK
+ * ========================================================= */
+
+.theme-dark .markdown-rendered em,
+.theme-dark .markdown-rendered i {
+    color: var(--c-italic) !important;
+    -webkit-text-fill-color: var(--c-italic) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+
+    font-style: italic !important;
+}
+
+
+/* Live Preview */
+.theme-dark .markdown-source-view.mod-cm6 .cm-em {
+    color: var(--c-italic) !important;
+    -webkit-text-fill-color: var(--c-italic) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+
+    font-style: italic !important;
+}
+
+
+/* Italic markdown markers */
+.theme-dark
+.markdown-source-view.mod-cm6
+.cm-formatting-em {
+    color: var(--c-italic-marker) !important;
+    -webkit-text-fill-color: var(--c-italic-marker) !important;
+}
+
+
+/* =========================================================
+ * 11. BOLD + ITALIC
+ * ========================================================= */
+
+.theme-dark .markdown-rendered strong em,
+.theme-dark .markdown-rendered em strong,
+.theme-dark .markdown-rendered b i,
+.theme-dark .markdown-rendered i b {
+    color: var(--c-h5) !important;
+    -webkit-text-fill-color: var(--c-h5) !important;
+
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+
+/* =========================================================
+ * 12. LINKS — INTERNAL vs EXTERNAL (underline killer)
+ * ========================================================= */
+
+/* Maximum specificity override — targets any anchor with an href */
+body.theme-dark .markdown-rendered a[href],
+body.theme-dark .markdown-rendered a[href]:hover,
+body.theme-dark .markdown-rendered a[href]:visited,
+body.theme-dark .markdown-rendered a[href]:active,
+body.theme-dark .markdown-rendered a[href] span,
+body.theme-dark .markdown-preview-view a[href] {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-underline-offset: unset !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+/* Internal links */
+body.theme-dark .markdown-rendered a.internal-link[href] {
+    color: var(--c-link-internal) !important;
+    -webkit-text-fill-color: var(--c-link-internal) !important;
+    text-decoration: none !important;
+}
+
+/* External links */
+body.theme-dark .markdown-rendered a.external-link[href] {
+    color: var(--c-link-external) !important;
+    -webkit-text-fill-color: var(--c-link-external) !important;
+    text-decoration: none !important;
+}
+
+/* Live Preview / source mode — internal (wikilinks) */
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-internal-link,
+body.theme-dark .markdown-source-view.mod-cm6 span.cm-hmd-internal-link {
+    color: var(--c-link-internal) !important;
+    -webkit-text-fill-color: var(--c-link-internal) !important;
+    text-decoration: none !important;
+}
+
+/* Live Preview / source mode — external (markdown links) */
+body.theme-dark .markdown-source-view.mod-cm6 .cm-link,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-url,
+body.theme-dark .markdown-source-view.mod-cm6 span.cm-link,
+body.theme-dark .markdown-source-view.mod-cm6 span.cm-url {
+    color: var(--c-link-external) !important;
+    -webkit-text-fill-color: var(--c-link-external) !important;
+    text-decoration: none !important;
+}
+
+/* =========================================================
+ * 13. INLINE CODE
+ * ========================================================= */
+
+.theme-dark .markdown-rendered code {
+    color: var(--c-code) !important;
+    -webkit-text-fill-color: var(--c-code) !important;
+}
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-inline-code {
+    color: var(--c-code) !important;
+    -webkit-text-fill-color: var(--c-code) !important;
+}
+
+
+/* =========================================================
+ * 14. BLOCKQUOTE
+ * ========================================================= */
+
+.theme-dark .markdown-rendered blockquote {
+    border-left-color: var(--c-quote) !important;
+}
+
+
+/* =========================================================
+ * 15. TAGS — TALLER PILLS, WHITE TEXT
+ * ========================================================= */
+
+.theme-dark .tag,
+.theme-dark a.tag {
+    color: var(--c-tag-text) !important;
+    -webkit-text-fill-color: var(--c-tag-text) !important;
+
+    background-color: var(--c-tag-bg) !important;
+
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 0.15em 0.55em !important;
+    font-size: 0.88em !important;
+    line-height: 1.6 !important;
+
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+
+.theme-dark .tag:hover,
+.theme-dark a.tag:hover {
+    background-color: var(--c-tag-bg-hover) !important;
+    color: var(--c-tag-text) !important;
+    -webkit-text-fill-color: var(--c-tag-text) !important;
+}
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-hashtag {
+    color: var(--c-tag-text) !important;
+    -webkit-text-fill-color: var(--c-tag-text) !important;
+
+    background-color: var(--c-tag-bg) !important;
+    border-radius: 4px !important;
+    padding: 0.1em 0.45em !important;
+    font-size: 0.88em !important;
+}
+
+
+/* =========================================================
+ * 16. SELECTION
+ * ========================================================= */
+
+.theme-dark ::selection {
+    background: #5A4825 !important;
+}

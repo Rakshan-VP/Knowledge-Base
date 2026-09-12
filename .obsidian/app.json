@@ -8,8 +8,10 @@
     "downscalePercent": 100
   },
   "readableLineLength": false,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "livePreview": false,
   "defaultViewMode": "preview",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "showIndentGuide": false
 }
