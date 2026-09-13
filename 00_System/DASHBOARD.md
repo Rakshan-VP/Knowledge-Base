@@ -1,4 +1,22 @@
-> Keep it simple and minimal
+> [!abstract] Summary
+> A central place for the ideas, knowledge, projects, and work that make up this vault. The dashboard is only a starting point — the actual content lives in the notes linked below.
 
-Block network access
-flatpak override --user --unshare=network com.icons8.Lunacy
+## Master Notes
+
+The main entry points into the vault.
+- [[Math]]
+- [[Robotics]]
+- [[Control]]
+- [[Programming]]
+- [[Computer Science]]
+- [[AI]]
+    
+
+## Quick Access
+
+- [[Tasks]]
+- [[Configuration]]
+- [[Test]]
+    
+> [!Note] Keep it simple  
+> Use Master Notes to organize knowledge and [[Tasks]] to track what needs to be done.
