@@ -3,20 +3,20 @@
 
 ## High Priority
 - [ ] Complete Assignment 1 - AS5401
-- [ ] Complete the Drone Design in FreeCAD
+- [ ] Complete the Drone Design in FreeCAD [Example Design](https://share.google/mJUbAW08jNt0IZU1H)
 	- [ ] Design Motor Mount with Arms (Only Motors)
 	- [ ] Design the Central Hub (With ESCs, PDB, GPS, FC and the TOF sensors)
 	- [ ] Build Landing Gears
 	- [ ] 3D print everything using PC
 - [ ] Complete the Startup Routine for Drone
 	- [ ] Write the Pinouts of FC in Github
-	- [ ] Write the code for all calibrations (Acc, Level, Gyro etc....)
-	- [ ] Write the code for a startup code
+	- [x] Write the math for all calibrations (Acc, Level, Gyro etc....) ✅ 2026-09-14
+	- [ ] Write the code for calibration
 
 ## Medium Priority
-- [ ] Cut your nails
+- [x] Cut your nails ✅ 2026-09-14
 - [ ] Wash Clothes
-- [ ] Arrange clothes
+- [x] Arrange clothes ✅ 2026-09-14
 - [ ] Start Using Food Items
 
 ## Low Priority
