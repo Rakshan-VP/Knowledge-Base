@@ -200,8 +200,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "de55300620469b88",
+  "active": "e4230f11ed54aeb8",
   "lastOpenFiles": [
+    "08_Tools/MATLAB",
+    "08_Tools/FreeCAD",
+    "08_Tools",
+    "07_Setup",
     "00_System/DASHBOARD.md",
     "00_System/Tasks.md",
     "02_Robotics/Sensor Calibration/IMU Calibration.md",
@@ -234,10 +238,6 @@
     "02_Robotics/_Examples & Applications",
     "97_Attachments/Excalidraw/KalmanFilter.md",
     "97_Attachments/Excalidraw",
-    "97_Attachments/Images",
-    "97_Attachments/Images/GaussianDistribution.png",
-    "01_Math/Probability & Statistics",
-    "97_Attachments",
-    "98_Inbox/Obsidian Setup.md"
+    "97_Attachments/Images/GaussianDistribution.png"
   ]
 }
