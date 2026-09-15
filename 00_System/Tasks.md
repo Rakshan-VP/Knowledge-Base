@@ -8,7 +8,7 @@
 	- [ ] Build Landing Gears
 	- [ ] 3D print everything using PC
 - [ ] Complete the Startup Routine for Drone
-	- [ ] Write the Pinouts of FC in Github
+	- [x] Write the Pinouts of FC in Github ✅ 2026-09-15
 	- [ ] Write the code for calibration
 
 ## Medium Priority

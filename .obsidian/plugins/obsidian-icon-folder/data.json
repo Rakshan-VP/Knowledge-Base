@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiToolsFill",
+      "TiSettingsUp",
       "RiAttachment2",
       "RiInboxArchiveLine",
-      "SiObsidian",
-      "SiGooglegemini",
-      "TiBookmarkAi"
+      "SiObsidian"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,5 +43,7 @@
   "00_System": "SiObsidian",
   "98_Inbox": "LiInbox",
   "99_Archives": "RiInboxArchiveLine",
-  "97_Attachments": "RiAttachment2"
+  "97_Attachments": "RiAttachment2",
+  "07_Setup": "TiSettingsUp",
+  "08_Tools": "RiToolsFill"
 }

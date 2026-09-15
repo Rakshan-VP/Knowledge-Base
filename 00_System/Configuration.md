@@ -122,6 +122,7 @@ Defines **what the note is**.
 - `derivation` — Shows how something is mathematically or logically obtained. 
 - `application` — Shows use of a concept. 
 - `implementation` — Describes a software or hardware realization.
+- `setup` — Installation, configuration, and environment setup
 ### Domain
 
 Defines **the subject area**.
