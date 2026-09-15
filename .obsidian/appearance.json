@@ -2,11 +2,11 @@
   "cssTheme": "Obsidianite",
   "interfaceFontFamily": "Adwaita Mono",
   "textFontFamily": "Adwaita Mono",
-  "monospaceFontFamily": "Source Code Pro",
+  "monospaceFontFamily": "Adwaita Mono",
   "enabledCssSnippets": [
     "tags",
-    "floatingpanels",
     "colors",
+    "floatingpanels",
     "format"
   ],
   "theme": "obsidian",

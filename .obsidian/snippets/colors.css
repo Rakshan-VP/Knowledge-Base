@@ -18,40 +18,45 @@
 
 :root {
     --c-title: #FBF1C7;
-    --c-h2: #FE8019;      /* burnt orange */
-    --c-h3: #8EC07C;      /* bright aqua */
-    --c-h4: #BDAE93;      /* warm grey-tan */
+    --c-h2: #FE8019;
+    --c-h3: #8EC07C;
+    --c-h4: #BDAE93;
     --c-h5: #A89984;
     --c-h6: #7C6F64;
+
     --c-h2-circle: #FE8019;
     --c-h3-circle: #8EC07C;
-    --c-bold: #FABD2F;    /* gold */
+
+    --c-bold: #FABD2F;
     --c-bold-marker: #B57614;
-    --c-italic: #D3869B;  /* dusty pink */
+
+    --c-italic: #D3869B;
     --c-italic-marker: #A35E70;
 
-    /* Links — deeper, calmer, clearly separated hues */
-    --c-link-internal: #458588;  /* gruvbox deep teal-blue — wikilinks */
-    --c-link-external: #EA6962;  /* gruvbox soft coral-red — external links */
+    /* Links */
+    --c-link-internal: #458588;
+    --c-link-external: #EA6962;
 
+    /* Inline code */
     --c-code: #BDAE93;
+
+    /* Blockquote */
     --c-quote: #D65D0E;
 
-    /* Tags — teal-green pills, slightly taller */
+    /* Tags */
     --c-tag-bg: #427B58;
     --c-tag-bg-hover: #689D6A;
     --c-tag-text: #FFFFFF;
 
     /* Note callout */
-    --c-note-border: #458588;      /* same teal-blue as internal links */
+    --c-note-border: #458588;
     --c-note-bg: rgba(69, 133, 136, 0.12);
     --c-note-title: #83A598;
 }
 
+
 /* =========================================================
  * 2. NOTE TITLE
- * ---------------------------------------------------------
- * No < > prefix/suffix.
  * ========================================================= */
 
 .theme-dark .inline-title {
@@ -97,7 +102,7 @@
 
 
 /* ---------------------------------------------------------
- * H2 — SIDE CIRCLE (same size both modes)
+ * H2 — SIDE CIRCLE
  * --------------------------------------------------------- */
 
 .theme-dark .markdown-rendered h2::before,
@@ -120,7 +125,7 @@
 
 
 /* =========================================================
- * 5. H3 — OLIVE GREEN
+ * 5. H3 — GREEN
  * ========================================================= */
 
 .theme-dark .markdown-rendered h3,
@@ -139,9 +144,8 @@
 }
 
 
-
 /* ---------------------------------------------------------
- * H3 — SIDE CIRCLE (same size both modes)
+ * H3 — SIDE CIRCLE
  * --------------------------------------------------------- */
 
 .theme-dark .markdown-rendered h3::before,
@@ -229,7 +233,10 @@
 }
 
 
-/* Live Preview */
+/* ---------------------------------------------------------
+ * Bold — Live Preview
+ * --------------------------------------------------------- */
+
 .theme-dark .markdown-source-view.mod-cm6 .cm-strong,
 .theme-dark .markdown-source-view.mod-cm6 .cm-line .cm-strong {
     color: var(--c-bold) !important;
@@ -244,7 +251,10 @@
 }
 
 
-/* Bold markdown markers */
+/* ---------------------------------------------------------
+ * Bold markdown markers
+ * --------------------------------------------------------- */
+
 .theme-dark
 .markdown-source-view.mod-cm6
 .cm-formatting-strong {
@@ -271,7 +281,10 @@
 }
 
 
-/* Live Preview */
+/* ---------------------------------------------------------
+ * Italic — Live Preview
+ * --------------------------------------------------------- */
+
 .theme-dark .markdown-source-view.mod-cm6 .cm-em {
     color: var(--c-italic) !important;
     -webkit-text-fill-color: var(--c-italic) !important;
@@ -285,7 +298,10 @@
 }
 
 
-/* Italic markdown markers */
+/* ---------------------------------------------------------
+ * Italic markdown markers
+ * --------------------------------------------------------- */
+
 .theme-dark
 .markdown-source-view.mod-cm6
 .cm-formatting-em {
@@ -313,10 +329,11 @@
 
 
 /* =========================================================
- * 12. LINKS — INTERNAL vs EXTERNAL (underline killer)
+ * 12. LINKS — INTERNAL vs EXTERNAL
  * ========================================================= */
 
-/* Reading view — maximum specificity override */
+/* Reading View — remove underline */
+
 body.theme-dark .markdown-rendered a[href],
 body.theme-dark .markdown-rendered a[href]:hover,
 body.theme-dark .markdown-rendered a[href]:visited,
@@ -331,11 +348,21 @@ body.theme-dark .markdown-preview-view a[href] {
     background-image: none !important;
 }
 
+
+/* ---------------------------------------------------------
+ * Internal links
+ * --------------------------------------------------------- */
+
 body.theme-dark .markdown-rendered a.internal-link[href] {
     color: var(--c-link-internal) !important;
     -webkit-text-fill-color: var(--c-link-internal) !important;
     text-decoration: none !important;
 }
+
+
+/* ---------------------------------------------------------
+ * External links
+ * --------------------------------------------------------- */
 
 body.theme-dark .markdown-rendered a.external-link[href] {
     color: var(--c-link-external) !important;
@@ -343,7 +370,11 @@ body.theme-dark .markdown-rendered a.external-link[href] {
     text-decoration: none !important;
 }
 
-/* Live Preview — internal wikilink text [[Note]] */
+
+/* ---------------------------------------------------------
+ * Live Preview — internal links
+ * --------------------------------------------------------- */
+
 body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-internal-link,
 body.theme-dark .markdown-source-view.mod-cm6 span.cm-hmd-internal-link,
 body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-internal-link.cm-underline {
@@ -353,7 +384,11 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-internal-link.cm-underline
     border-bottom: none !important;
 }
 
-/* Live Preview — internal link formatting marks: [[ ]] and | alias pipe */
+
+/* ---------------------------------------------------------
+ * Live Preview — internal link formatting marks
+ * --------------------------------------------------------- */
+
 body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link,
 body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link-string {
     color: var(--c-link-internal) !important;
@@ -361,7 +396,11 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link-string {
     opacity: 0.7;
 }
 
-/* Live Preview — external markdown link [text](url), both portions */
+
+/* ---------------------------------------------------------
+ * Live Preview — external links
+ * --------------------------------------------------------- */
+
 body.theme-dark .markdown-source-view.mod-cm6 .cm-link,
 body.theme-dark .markdown-source-view.mod-cm6 .cm-url,
 body.theme-dark .markdown-source-view.mod-cm6 span.cm-link,
@@ -374,15 +413,29 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-link.cm-url {
     border-bottom: none !important;
 }
 
-/* Live Preview — external link's own [ ] ( ) formatting brackets */
-body.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-link + .cm-link,
-body.theme-dark .markdown-source-view.mod-cm6 .cm-link.cm-formatting-link {
+
+/* ---------------------------------------------------------
+ * External link formatting brackets
+ * --------------------------------------------------------- */
+
+body.theme-dark
+.markdown-source-view.mod-cm6
+.cm-formatting-link + .cm-link,
+body.theme-dark
+.markdown-source-view.mod-cm6
+.cm-link.cm-formatting-link {
     color: var(--c-link-external) !important;
     -webkit-text-fill-color: var(--c-link-external) !important;
 }
 
-/* Catch-all — kill underline on any link-related span in Live Preview */
-body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
+
+/* ---------------------------------------------------------
+ * Catch-all — remove link underline
+ * --------------------------------------------------------- */
+
+body.theme-dark
+.markdown-source-view.mod-cm6
+.cm-line span[class*="link"] {
     text-decoration: none !important;
     border-bottom: none !important;
 }
@@ -392,10 +445,15 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
  * 13. INLINE CODE
  * ========================================================= */
 
-.theme-dark .markdown-rendered code {
+/* Reading View */
+
+.theme-dark .markdown-rendered :not(pre) > code {
     color: var(--c-code) !important;
     -webkit-text-fill-color: var(--c-code) !important;
 }
+
+
+/* Live Preview */
 
 .theme-dark .markdown-source-view.mod-cm6 .cm-inline-code {
     color: var(--c-code) !important;
@@ -404,7 +462,25 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
 
 
 /* =========================================================
- * 14. BLOCKQUOTE
+ * 14. CODE BLOCKS
+ * ---------------------------------------------------------
+ * Spacing only.
+ * Language label and copy buttons preserved.
+ * ========================================================= */
+
+.theme-dark .markdown-rendered div.code-block-flair,
+.theme-dark .markdown-rendered .code-block-language {
+    display: inline-block !important;
+}
+
+.theme-dark .markdown-rendered pre {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+
+/* =========================================================
+ * 15. BLOCKQUOTE
  * ========================================================= */
 
 .theme-dark .markdown-rendered blockquote {
@@ -413,7 +489,7 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
 
 
 /* =========================================================
- * 15. TAGS — TALLER PILLS, WHITE TEXT
+ * 16. TAGS — TALLER PILLS, WHITE TEXT
  * ========================================================= */
 
 .theme-dark .tag,
@@ -433,12 +509,22 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
     text-decoration: none !important;
 }
 
+
+/* ---------------------------------------------------------
+ * Tags — Hover
+ * --------------------------------------------------------- */
+
 .theme-dark .tag:hover,
 .theme-dark a.tag:hover {
     background-color: var(--c-tag-bg-hover) !important;
     color: var(--c-tag-text) !important;
     -webkit-text-fill-color: var(--c-tag-text) !important;
 }
+
+
+/* ---------------------------------------------------------
+ * Tags — Live Preview
+ * --------------------------------------------------------- */
 
 .theme-dark .markdown-source-view.mod-cm6 .cm-hashtag {
     color: var(--c-tag-text) !important;
@@ -452,7 +538,7 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
 
 
 /* =========================================================
- * 16. SELECTION
+ * 17. SELECTION
  * ========================================================= */
 
 .theme-dark ::selection {
@@ -461,7 +547,7 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
 
 
 /* =========================================================
- * 17. CALLOUT — NOTE
+ * 18. CALLOUT — NOTE
  * ========================================================= */
 
 .theme-dark .callout[data-callout="note"] {
@@ -478,6 +564,11 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
     box-shadow: none !important;
 }
 
+
+/* ---------------------------------------------------------
+ * Callout title
+ * --------------------------------------------------------- */
+
 .theme-dark .callout[data-callout="note"] .callout-title {
     color: var(--c-note-title) !important;
     -webkit-text-fill-color: var(--c-note-title) !important;
@@ -485,14 +576,29 @@ body.theme-dark .markdown-source-view.mod-cm6 .cm-line span[class*="link"] {
     font-weight: 600 !important;
 }
 
+
+/* ---------------------------------------------------------
+ * Callout title inner
+ * --------------------------------------------------------- */
+
 .theme-dark .callout[data-callout="note"] .callout-title-inner {
     color: var(--c-note-title) !important;
     -webkit-text-fill-color: var(--c-note-title) !important;
 }
 
+
+/* ---------------------------------------------------------
+ * Callout icon
+ * --------------------------------------------------------- */
+
 .theme-dark .callout[data-callout="note"] .callout-icon {
     color: var(--c-note-border) !important;
 }
+
+
+/* ---------------------------------------------------------
+ * Callout content
+ * --------------------------------------------------------- */
 
 .theme-dark .callout[data-callout="note"] .callout-content {
     padding-top: 0.35em !important;

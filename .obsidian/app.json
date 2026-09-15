@@ -15,5 +15,6 @@
   "showInlineTitle": true,
   "showIndentGuide": false,
   "newFileLocation": "root",
-  "attachmentFolderPath": "97_Attachments"
+  "attachmentFolderPath": "97_Attachments",
+  "foldIndent": true
 }
