@@ -33,164 +33,78 @@ The FreeCAD interface is divided into several key areas, each serving a specific
 
 ## FreeCAD — Sketches
 
-Sketches are the foundation of parametric modeling in FreeCAD. A good sketch should be **geometrically correct, properly constrained, and easy to modify**.
+Sketches are the foundation of parametric modeling in FreeCAD: **geometrically correct, properly constrained, and easy to modify.**
 
-### Sketch Settings
-
-Before creating sketches, check the relevant settings in:
+### Setup
 
 `Edit → Preferences → Sketcher`
 
-- **Allow External Geometry as Construction Geometry** — Allows external/reference geometry to be used directly as construction geometry.
-- Review other Sketcher preferences according to your workflow.
+- **Allow External Geometry as Construction Geometry** — lets external/reference geometry be used directly as construction geometry.
+- Review other Sketcher preferences to match your workflow.
 
 > [!tip]
-> Set up these preferences once before starting a project.
+> Set these up once, before starting a project.
 
+### Workflow
 
-### Creating a Sketch
+```text
+Create Sketch → Select Plane → External Geometry → Draw Geometry
+     → Geometric Constraints → Dimensional Constraints
+     → Fully Constrained → Create 3D Feature
+```
 
-The typical workflow is:
-
-1. Select **Create Sketch** from the toolbar.
-2. Select the required sketch plane.
-3. Start creating the geometry.
-
-For most designs, prefer the **Origin planes** when possible:
-
-- XY Plane
-- XZ Plane
-- YZ Plane
-
-Using the origin planes keeps the model properly referenced to the global coordinate system and makes the design easier to manage.
-
-
-### Sketching Strategy
-
-> [!note] Rule of thumb
-> **Draw first → Constrain second.**
-
-#### Recommended order
-
-1. **Create the reference geometry**
-   - Use **External Geometry** to bring existing edges or geometry into the sketch.
-   - These edges provide references for positioning and constraining new geometry.
-
-2. **Create the basic geometry**
-   - Lines
-   - Circles
-   - Arcs
-   - Rectangles
-   - etc.
-
-3. **Apply geometric constraints**
-   - Coincident
-   - Horizontal / Vertical
-   - Parallel
-   - Perpendicular
-   - Symmetry
-   - Tangent
-
-4. **Apply dimensional constraints**
-   - Length
-   - Distance
-   - Radius
-   - Diameter
-   - Angle
-
-5. Continue until the sketch is **Fully constrained**.
+- **Create Sketch** → select plane → start drawing. Prefer **Origin planes** (XY / XZ / YZ) — keeps the model referenced to the global coordinate system.
+- **Rule of thumb: Draw first → Constrain second.**
 
 > [!success] Goal
-> A well-defined sketch should normally show **Fully constrained** in the Sketcher Tasks panel.
-
+> Sketcher Tasks panel should read **Fully constrained** — no unintended degrees of freedom left. This makes a sketch more stable, easier to modify, and better suited for parametric modeling.
 
 ### External Geometry
 
-**External Geometry** is useful for referencing existing model edges while creating a new sketch.
+Import existing edges as references so new geometry stays aligned to holes, edges, or other features.
 
 ```text
 Existing edge → External Geometry → New sketch geometry → Constrain relative to the edge
 ```
 
-This is particularly useful when creating features that must align with existing holes, edges, or other geometry.
+### Constraints
 
-
-### Important Constraints
+| Type | Options |
+|---|---|
+| **Geometric** | Coincident, Horizontal/Vertical, Parallel, Perpendicular, Symmetry, Tangent |
+| **Dimensional** | Length, Distance, Radius, Diameter, Angle |
 
 | Constraint | Purpose |
 |---|---|
 | Coincident | Joins points or geometry |
-| Horizontal / Vertical | Keeps geometry horizontal or vertical |
-| Parallel | Makes two lines parallel |
-| Perpendicular | Makes two lines 90° apart |
-| Symmetry | Makes geometry symmetric about a reference |
-| Tangent | Creates a smooth tangent connection |
+| Horizontal / Vertical | Locks orientation |
+| Parallel | Two lines parallel |
+| Perpendicular | Two lines at 90° |
+| Symmetry | Mirrors geometry about a reference |
+| Tangent | Smooth tangent connection |
 
-Use dimensional constraints in addition to geometric constraints to define the actual size and position of the geometry.
+Apply geometric constraints first, then dimensional constraints to fully define size and position.
 
+### Section View
 
-### Fully Constrained Sketch
-
-While editing a sketch, monitor the degrees of freedom shown in the Tasks panel.
-
-The preferred final state is:
-
-> [!success]
-> **Fully constrained**
-
-This means the sketch geometry has no remaining unintended degrees of freedom.
-
-A fully constrained sketch is generally:
-
-- More stable
-- Easier to modify
-- Less likely to move unexpectedly
-- Better suited for parametric modeling
-
-
-### Viewing Inside the Model
-
-When working with sketches or features inside an existing solid, **Section View** can be useful.
-
-Use it to temporarily cut through the model and inspect internal geometry.
+Cuts through a solid to inspect internal geometry — useful for checking holes, pockets, cavities, and alignment.
 
 ```text
 Solid model → Section View → Inspect internal sketch / feature
 ```
 
-
-This is especially useful for checking holes, internal pockets, cavities, and alignment.
-
-
 ### Moving a Sketch
-
-A sketch can be repositioned through the Property Editor.
-
-Navigate to:
 
 `Property Editor → Attachment → Attachment Position`
 
-The position is defined **relative to the sketch's local coordinate system**, not directly to the global coordinate system.
+Position is relative to the **sketch's local** coordinate system:
 
-For example:
+- **X** → local X-axis
+- **Y** → local Y-axis
+- **Z** → perpendicular to the sketch plane
 
-- **X** → movement along the sketch's local X-axis
-- **Y** → movement along the sketch's local Y-axis
-- **Z** → movement perpendicular to the sketch plane
-
-Therefore, when you want to move a sketch normal to its plane, the **local Z position** is generally the relevant parameter.
-
-> [!warning] Important
-> The Z value here is the sketch's **local Z**, so it should not automatically be interpreted as global Z.
-
-
-### Sketch Workflow — Quick Reference
-
-```text
-Create Sketch → Select Plane → Use External Geometry → Draw Geometry
-     → Geometric Constraints → Dimensional Constraints
-     → Fully Constrained → Create 3D Feature
-```
+> [!warning]
+> This Z is **local**, not global — don't assume it matches the model's global Z.
 
 ## Related Links
 ### Examples
