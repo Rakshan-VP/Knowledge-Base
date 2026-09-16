@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Tools/FreeCAD/Fundamentals & Basic Tools {FreeCAD}.md",
-                "mode": "source",
+                "file": "08_Tools/FreeCAD/Basic Tools & Settings {FreeCAD}.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentals & Basic Tools {FreeCAD}"
+              "title": "Basic Tools & Settings {FreeCAD}"
             }
           }
         ]
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Tools/FreeCAD/Fundamentals & Basic Tools {FreeCAD}.md",
+                "file": "08_Tools/FreeCAD/Basic Tools & Settings {FreeCAD}.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -203,7 +203,7 @@
   "active": "02485f1f81fdf978",
   "lastOpenFiles": [
     "97_Attachments/Images/FreeCAD/FreeCAD.png",
-    "08_Tools/FreeCAD/Fundamentals & Basic Tools {FreeCAD}.md",
+    "08_Tools/FreeCAD/Basic Tools & Settings {FreeCAD}.md",
     "00_System/Configuration.md",
     "97_Attachments/Images/GaussianDistribution.png",
     "97_Attachments/Images/FreeCAD",
