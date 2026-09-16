@@ -116,13 +116,13 @@ Use four dimensions:
 
 Defines **what the note is**.
 
-- `concept` — Explains what something is and how it works.
-- `method` — Explains how to perform or solve something.
-- `reference` — Quick-lookup information.
-- `derivation` — Shows how something is mathematically or logically obtained. 
-- `application` — Shows use of a concept. 
-- `implementation` — Describes a software or hardware realization.
-- `setup` — Installation, configuration, and environment setup
+- `concept` — Explains **what something is and how it works**.
+- `method` — Explains **how to perform, solve, or approach something**.
+- `reference` — Provides **quick-lookup information** such as commands, parameters, shortcuts, or specifications.
+- `derivation` — Shows **how something is mathematically or logically obtained**.
+- `application` — Shows **how a concept or method is used in a practical context**.
+- `implementation` — Describes a **software, hardware, or computational realization**.
+- `setup` — Covers **installation, configuration, preferences, and environment setup**.
 ### Domain
 
 Defines **the subject area**.

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ffeffae01b995af9",
+        "id": "0653c418241ed75b",
         "type": "tabs",
         "children": [
           {
-            "id": "7db2a11dbe192565",
+            "id": "02485f1f81fdf978",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_System/Tasks.md",
+                "file": "08_Tools/FreeCAD/Fundamentals & Basic Tools {FreeCAD}.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "Fundamentals & Basic Tools {FreeCAD}"
             }
           }
         ]
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_System/Tasks.md",
+                "file": "08_Tools/FreeCAD/Fundamentals & Basic Tools {FreeCAD}.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -200,15 +200,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7db2a11dbe192565",
+  "active": "02485f1f81fdf978",
   "lastOpenFiles": [
-    "00_System/DASHBOARD.md",
-    "07_Setup/Arduino Setup.md",
+    "97_Attachments/Images/FreeCAD/FreeCAD.png",
+    "08_Tools/FreeCAD/Fundamentals & Basic Tools {FreeCAD}.md",
     "00_System/Configuration.md",
+    "97_Attachments/Images/GaussianDistribution.png",
+    "97_Attachments/Images/FreeCAD",
+    "00_System/DASHBOARD.md",
+    "00_System/Tasks.md",
+    "07_Setup/Arduino Setup.md",
     "00_System/Templates/Simple Note.md",
     "02_Robotics/Sensor Calibration/IMU Calibration.md",
     "02_Robotics/State Estimation/Kalman Filter.md",
-    "00_System/Tasks.md",
     "08_Tools/MATLAB",
     "08_Tools/FreeCAD",
     "08_Tools",
@@ -232,12 +236,8 @@
     "Excalidraw",
     "98_Inbox/State Space.md",
     "98_Inbox/Statistics Probab.md",
-    "01_Math/Probability & Statistics/Statistical Measures.md",
     "02_Robotics/State Estimation/Practice",
     "02_Robotics/State Estimation/Theory",
-    "02_Robotics/_Implementations",
-    "02_Robotics/_Examples & Applications",
-    "97_Attachments/Excalidraw/KalmanFilter.md",
-    "97_Attachments/Images/GaussianDistribution.png"
+    "02_Robotics/_Implementations"
   ]
 }
