@@ -1,3 +1,4 @@
+#index
 > [!abstract] Summary
 > A central place for the ideas, knowledge, projects, and work that make up this vault. The dashboard is only a starting point — the actual content lives in the notes linked below.
 
@@ -10,8 +11,9 @@ The main entry points into the vault.
 - [[Programming]]
 - [[Computer Science]]
 - [[AI]]
+- [[Setup]]
+- [[Tools]]
     
-
 ## Quick Access
 
 - [[Tasks]]
