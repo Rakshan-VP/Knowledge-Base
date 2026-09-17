@@ -1,6 +1,11 @@
 >[!abstract] Summary
 > Capture everything quickly. Decide what matters when you review this page.
 
+## Everyday Tasks
+- [ ] Put Fingerprint in Department
+- [ ] Check Mails
+- [ ] Add to Calender
+- [ ] Add to Expense Tracker
 ## High Priority
 - [ ] Complete the Drone Design in FreeCAD [Example Design](https://share.google/mJUbAW08jNt0IZU1H)
 	- [ ] Design Motor Mount with Arms (Only Motors)
