@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Tools/FreeCAD/Basic Tools & Settings.md",
+                "file": "08_Tools/FreeCAD/Part Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Basic Tools & Settings"
+              "title": "Part Design"
             }
           }
         ]
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Tools/FreeCAD/Basic Tools & Settings.md",
+                "file": "08_Tools/FreeCAD/Part Design.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,19 +202,21 @@
   },
   "active": "ffeac52cb8d9dc2f",
   "lastOpenFiles": [
-    "08_Tools/FreeCAD/Part Design.md",
+    "97_Attachments/Images/FreeCAD/Part-Transform.png",
+    "97_Attachments/Images/FreeCAD/Part-Subtract.png",
+    "97_Attachments/Images/FreeCAD/Part-Helper.png",
+    "97_Attachments/Images/FreeCAD/Part-Dress-Up.png",
+    "97_Attachments/Images/FreeCAD/Part-Boolean.png",
+    "97_Attachments/Images/FreeCAD/Part-Add.png",
     "08_Tools/FreeCAD/Basic Tools & Settings.md",
+    "08_Tools/FreeCAD/Part Design.md",
     "00_System/DASHBOARD.md",
     "97_Attachments/Images/FreeCAD/PartDesign.png",
     "97_Attachments/Images/FreeCAD/Pocket.png",
     "97_Attachments/Images/FreeCAD/Pad.png",
     "97_Attachments/Images/FreeCAD/Mirror.png",
     "97_Attachments/Images/FreeCAD/Fillet.png",
-    "97_Attachments/Images/FreeCAD/Chamfer.png",
-    "97_Attachments/Images/FreeCAD/Sketches.png",
-    "97_Attachments/Images/FreeCAD/FreeCAD.png",
     "00_System/Configuration.md",
-    "97_Attachments/Images/GaussianDistribution.png",
     "97_Attachments/Images/FreeCAD",
     "00_System/Tasks.md",
     "07_Setup/Arduino Setup.md",
@@ -243,7 +245,6 @@
     "Excalidraw/Drawing 2026-09-12 11.42.31.excalidraw.md",
     "Excalidraw",
     "98_Inbox/State Space.md",
-    "98_Inbox/Statistics Probab.md",
     "02_Robotics/State Estimation/Practice",
     "02_Robotics/State Estimation/Theory",
     "02_Robotics/_Implementations"
