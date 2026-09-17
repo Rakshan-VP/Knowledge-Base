@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_System/DASHBOARD.md",
+                "file": "08_Tools/FreeCAD/Part Design - Advanced Features.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DASHBOARD"
+              "title": "Part Design - Advanced Features"
             }
           }
         ]
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_System/DASHBOARD.md",
+                "file": "08_Tools/FreeCAD/Part Design - Advanced Features.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,10 +202,10 @@
   },
   "active": "ffeac52cb8d9dc2f",
   "lastOpenFiles": [
-    "07_Setup/Arduino Setup.md",
-    "00_System/DASHBOARD.md",
-    "00_System/Tasks.md",
     "08_Tools/Tools.md",
+    "00_System/DASHBOARD.md",
+    "07_Setup/Arduino Setup.md",
+    "00_System/Tasks.md",
     "07_Setup/Setup.md",
     "06_AI/AI.md",
     "05_Computer_Science/Computer Science.md",
