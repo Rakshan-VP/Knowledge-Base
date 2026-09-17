@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#domain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,

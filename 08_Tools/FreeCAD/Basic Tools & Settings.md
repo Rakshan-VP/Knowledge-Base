@@ -1,4 +1,4 @@
-#type/method #domain/software #status/learning #scope/fundamental
+#type/method #domain/software #status/completed #scope/fundamental
 > [!abstract] Summary 
 > This note covers the **fundamental FreeCAD tools, interface, settings, and sketching practices** required to build stable parametric models. It also introduces the basic Part Design features used to create and modify 3D solids.
 
