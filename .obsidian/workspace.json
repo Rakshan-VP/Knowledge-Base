@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0653c418241ed75b",
+        "id": "962778ba9225435e",
         "type": "tabs",
         "children": [
           {
-            "id": "02485f1f81fdf978",
+            "id": "909b85543e19c4e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,14 +200,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "02485f1f81fdf978",
+  "active": "07b82a7e3914975f",
   "lastOpenFiles": [
-    "97_Attachments/Images/FreeCAD/FreeCAD.png",
+    "97_Attachments/Images/FreeCAD/PartDesign.png",
+    "97_Attachments/Images/FreeCAD/Pocket.png",
+    "97_Attachments/Images/FreeCAD/Pad.png",
+    "97_Attachments/Images/FreeCAD/Mirror.png",
+    "97_Attachments/Images/FreeCAD/Fillet.png",
+    "97_Attachments/Images/FreeCAD/Chamfer.png",
     "08_Tools/FreeCAD/Basic Tools & Settings {FreeCAD}.md",
+    "97_Attachments/Images/FreeCAD/Sketches.png",
+    "97_Attachments/Images/FreeCAD/FreeCAD.png",
+    "00_System/DASHBOARD.md",
     "00_System/Configuration.md",
     "97_Attachments/Images/GaussianDistribution.png",
     "97_Attachments/Images/FreeCAD",
-    "00_System/DASHBOARD.md",
     "00_System/Tasks.md",
     "07_Setup/Arduino Setup.md",
     "00_System/Templates/Simple Note.md",

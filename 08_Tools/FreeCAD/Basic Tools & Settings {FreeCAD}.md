@@ -36,6 +36,8 @@ The FreeCAD interface is divided into several key areas, each serving a specific
 
 Sketches are the foundation of parametric modeling in FreeCAD: **geometrically correct, properly constrained, and easy to modify.**
 
+![[Sketches.png|875]]
+
 ### Setup
 
 `Edit → Preferences → Sketcher`
@@ -111,9 +113,13 @@ Position is relative to the **sketch's local** coordinate system:
 
 The most-used tools for turning a sketch into a solid: **Pad, Pocket, Fillet, Chamfer, Mirror.**
 
+![[PartDesign.png]]
+
 ### Pad
 
 Extrudes a sketch into a solid along its normal direction. The most basic feature-creation tool.
+
+![[Pad.png]]
 
 ```text
 Sketch → Pad → Solid
@@ -134,6 +140,8 @@ Sketch → Pad → Solid
 
 Removes material by extruding a sketch profile *into* an existing solid — the cut counterpart to Pad.
 
+![[Pocket.png]]
+
 ```text
 Sketch (on/inside solid) → Pocket → Material removed
 ```
@@ -144,13 +152,39 @@ Sketch (on/inside solid) → Pocket → Material removed
 | Through all | Cuts completely through the solid |
 | Reversed | Flips cut direction |
 | Up to Face / Up to Shape | Cuts until it hits a chosen face or object |
+> [!WARNING] Multiple Contours in Pad/Pocket
+> If you are coming from **Fusion 360**, you may encounter an error when creating a **Pad** or **Pocket** in FreeCAD when the sketch contains multiple contours.
+>
+> **Fix:** Select the **Sketch** → **Property Editor** → **Internal Geometry** → set **Make Internals** to **Yes**.
+>
+> This creates selectable **faces** from the internal contours, allowing you to select the required face(s) and create the **Pad** or **Pocket**.
 
 > [!note]
 > The sketch must lie on or reference the solid it's cutting into.
 
+### Chamfer
+
+Cuts a flat, angled bevel on selected edges — the angular counterpart to Fillet.
+
+![[Chamfer.png]]
+
+```text
+Select edge/face → Chamfer → Beveled edge
+```
+
+| Option | Purpose |
+|---|---|
+| Distance | Size of the bevel (equal on both faces) |
+| Distance × Distance | Asymmetric bevel size |
+| Distance × Angle | Bevel defined by one distance and an angle |
+
+> [!note]
+> Use Chamfer over Fillet when a machined/angular look is needed (e.g. edges that mate with other parts, printed thread starts).
 ### Fillet
 
 Rounds selected edges or faces — softens sharp corners.
+
+![[Fillet.png]]
 
 ```text
 Select edge/face → Fillet → Rounded edge
@@ -165,26 +199,11 @@ Select edge/face → Fillet → Rounded edge
 > [!tip]
 > Fillet **after** the main solid features are stable — early fillets often break later edits (edge references shift).
 
-### Chamfer
-
-Cuts a flat, angled bevel on selected edges — the angular counterpart to Fillet.
-
-```text
-Select edge/face → Chamfer → Beveled edge
-```
-
-| Option | Purpose |
-|---|---|
-| Distance | Size of the bevel (equal on both faces) |
-| Distance × Distance | Asymmetric bevel size |
-| Distance × Angle | Bevel defined by one distance and an angle |
-
-> [!note]
-> Use Chamfer over Fillet when a machined/angular look is needed (e.g. edges that mate with other parts, printed thread starts).
-
 ### Mirror
 
 Duplicates a feature or sketch symmetrically across a plane.
+
+![[Mirror.png]]
 
 ```text
 Select feature/sketch → Mirror plane → Mirrored copy
