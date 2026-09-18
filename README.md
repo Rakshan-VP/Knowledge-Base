@@ -25,6 +25,30 @@ This folder contains notes organized as an **Obsidian Vault**.
 - **Do not** move images or attachments, as this may break links.
 - Keep the existing folder structure intact.
 
+## Git Workflow
+
+### `learning` → `stable`
+
+Use `learning` for regular development and `stable` for reviewed, stable versions.
+
+```bash
+# Work on the learning branch
+git switch learning
+
+# Make your changes...
+
+git add .
+git commit -m "Update notes"
+git push origin learning
+
+# Merge learning into stable
+git switch stable
+git pull origin stable
+git merge learning
+git push origin stable
+```
+
+
 ## Related Links
 - [How to Download and Install Obsidian](https://www.youtube.com/watch?v=-GWLWgPqyVM)
 - [Basics, Headers and External Links in Obsidian](https://www.youtube.com/watch?v=sc1NvD76_kE)
