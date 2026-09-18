@@ -48,6 +48,7 @@ git merge learning
 git push origin stable
 ```
 
+>**Note:** Changes are developed and committed in `learning`, then merged into `stable` when they are ready for release.
 
 ## Related Links
 - [How to Download and Install Obsidian](https://www.youtube.com/watch?v=-GWLWgPqyVM)
