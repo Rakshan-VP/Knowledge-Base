@@ -16,7 +16,6 @@ The main entry points into the vault.
     
 ## Quick Access
 
-- [[Tasks]]
 - [[Configuration]]
 - [[Test]]
     
