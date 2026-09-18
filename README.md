@@ -26,7 +26,7 @@ This folder contains notes organized as an **Obsidian Vault**.
 - Keep the existing folder structure intact.
 
 ## Related Links
-- [How to Download and Install Obsidian](https://www.youtube.com/@ObsidianTutorial)
+- [How to Download and Install Obsidian](https://www.youtube.com/watch?v=-GWLWgPqyVM)
 - [Basics, Headers and External Links in Obsidian](https://www.youtube.com/watch?v=sc1NvD76_kE)
 
 > **Tip:** For the best experience, open the **entire folder as a vault** rather than opening individual `.md` files.
