@@ -1,0 +1,47 @@
+# ==========================================
+# Obsidian Vault - Git Ignore
+# ==========================================
+
+# Obsidian Trash
+/.trash/
+
+# Personal / session-specific workspace
+/.obsidian/workspace.json
+/.obsidian/workspaces.json
+
+# ==========================================
+# Vault-specific folders
+# ==========================================
+
+# Inbox - not intended for sharing
+/98_Inbox/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==========================================
+# VSCodium
+# ==========================================
+
+.vscode/
+
+# ==========================================
+# Temporary / Backup Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.old
