@@ -33,6 +33,7 @@ Use `learning` for regular development and `stable` for reviewed, stable version
 
 ```bash
 # Work on the learning branch
+
 git switch learning
 
 # Make your changes...
@@ -41,14 +42,39 @@ git add .
 git commit -m "Update notes"
 git push origin learning
 
-# Merge learning into stable
+# Merge learning into stable when ready 
+
 git switch stable
 git pull origin stable
 git merge learning
 git push origin stable
+
+# Mark the stable version
+# Format: vYY.MM.NN
+# YY = year, MM = month, NN = release number
+
+git tag -a v26.09.01 -m "September 2026 - Release 01"
+git push origin v26.09.01
 ```
 
 >**Note:** Changes are developed and committed in `learning`, then merged into `stable` when they are ready for release.
+
+### Versioning
+
+Stable releases use the following format:
+
+`vYY.MM.NN`
+
+- `YY` — year
+- `MM` — month
+- `NN` — release number within the month
+
+Examples:
+```text
+v26.09.01
+v26.09.02
+v26.10.01
+```
 
 ## Related Links
 - [How to Download and Install Obsidian](https://www.youtube.com/watch?v=-GWLWgPqyVM)
