@@ -20,4 +20,4 @@ The main entry points into the vault.
 - [[Test]]
     
 > [!Note] Keep it simple  
-> Use Master Notes to organize knowledge and [[Tasks]] to track what needs to be done.
+> Use Master Notes to organize knowledge and keep only master note links.
