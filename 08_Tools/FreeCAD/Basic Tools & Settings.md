@@ -230,5 +230,6 @@ Sketch → Pad/Pocket → Fillet/Chamfer → Mirror (if symmetric)
 ## Related Links
 ### Examples
 ### Notes
+- [[Part Design - Advanced Features]]
 ### External
 - [Deltahedra|New to FreeCAD? Start HERE (Ultimate Beginner Tutorial)](https://www.youtube.com/watch?v=KmtqNaGPiiQ)
