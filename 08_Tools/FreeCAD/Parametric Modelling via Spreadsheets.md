@@ -57,3 +57,4 @@ We will:
 - [[Basic Tools & Settings]]
 - [[Part Design - Advanced Features]]
 ### External
+- [Wiki|Manual:Using_spreadsheets](https://wiki.freecad.org/Manual:Using_spreadsheets)
