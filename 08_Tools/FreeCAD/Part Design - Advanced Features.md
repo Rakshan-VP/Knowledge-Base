@@ -67,3 +67,4 @@ After the basic **Sketch → Pad/Pocket** workflow, FreeCAD provides several too
 - [[Basic Tools & Settings]]
 ### External
 - [Wiki|PartDesign Workbench](https://wiki.freecad.org/PartDesign_Workbench)
+- [Wiki|PartDesign Revolution](https://wiki.freecad.org/PartDesign_Revolution)
