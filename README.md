@@ -1,4 +1,4 @@
-# Obsidian Notes
+# Knowledge Base
 
 This folder contains notes organized as an **Obsidian Vault**.
 
