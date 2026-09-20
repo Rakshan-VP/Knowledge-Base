@@ -1,4 +1,4 @@
-#type/method #domain/software #status/learning #scope/intermediate
+#type/method #domain/software #status/completed #scope/intermediate
 > [!abstract] Summary 
 > This note covers the **intermediate Part Design tools in FreeCAD** used to create more complex parametric models. It focuses on advanced additive and subtractive operations, feature transformations, dress-up operations, Boolean features, and reference geometry.
 
