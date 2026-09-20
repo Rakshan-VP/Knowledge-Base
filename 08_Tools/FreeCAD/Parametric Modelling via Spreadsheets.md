@@ -1,4 +1,4 @@
-#type/method #type/example #domain/CAD #status/learning #scope/advanced
+#type/method #type/example #domain/CAD #status/completed #scope/advanced
 > [!abstract] Summary 
 > This note covers **parametric design using spreadsheets** in FreeCAD. Dimensions are stored as named variables in one spreadsheet, so changing a value updates the model automatically.
 
