@@ -26,8 +26,13 @@ After the basic **Sketch → Pad/Pocket** workflow, FreeCAD provides several too
 ![[Part-Add.png]]
 
 ### Revolution
+Creates a solid by **revolving a sketch profile around a selected axis** through a specified angle. It is useful for creating rotationally symmetric parts such as shafts, discs, and flanges.
+
 ### Additive Loft
+Creates a solid by **blending between two or more sketch profiles** positioned on different planes. It is useful for creating smooth, tapered, or irregularly shaped transitions.
+
 ### Additive Pipe
+Creates a solid by **sweeping a sketch profile along a path**. It is commonly used for creating tubes, curved members, and other swept geometries.
 
 ## Subtractive Tools
 **Subtractive tools** are used to **remove material** from an existing Body to create features such as grooves, channels, cavities, and other complex cuts.
@@ -35,9 +40,16 @@ After the basic **Sketch → Pad/Pocket** workflow, FreeCAD provides several too
 ![[Part-Subtract.png]]
 
 ### Hole
+Creates a **parametric hole** in a solid based on a selected sketch point or geometry. It provides options for properties such as diameter, depth, threading, countersinking, and counterboring.
+
 ### Groove
+Removes material by **revolving a sketch profile around an axis**. It is commonly used to create circular grooves, channels, and recesses.
+
 ### Subtractive Loft
+Removes material by **lofting between two or more sketch profiles**. It is useful for creating tapered or smoothly transitioning cavities and cutouts.
+
 ### Subtractive Pipe
+Removes material by **sweeping a sketch profile along a path**. It can be used to create curved channels, passages, and other swept cut features.
 
 ## Boolean
 **Boolean tools** are used to perform **geometric operations between solid Bodies**, allowing multiple bodies to be combined or their volumes to be subtracted or intersected.
@@ -50,7 +62,10 @@ After the basic **Sketch → Pad/Pocket** workflow, FreeCAD provides several too
 ![[Part-Dress-Up.png]]
 
 ### Draft
+Applies a **taper or angular deformation to selected faces** relative to a specified neutral plane. It is commonly used to create draft angles required for manufacturing processes such as injection molding.
+
 ### Thickness
+Creates a **hollow shell from a solid** by removing selected faces and applying a specified wall thickness. It is useful for creating enclosures, housings, and thin-walled components.
 
 ## Transformation Features
 **Transformation features** are used to **repeat, mirror, or reposition existing features** without having to recreate their geometry manually.
@@ -58,8 +73,13 @@ After the basic **Sketch → Pad/Pocket** workflow, FreeCAD provides several too
 ![[Part-Transform.png]]
 
 ### Linear Pattern
+Creates multiple copies of a feature **along one or more linear directions** with a specified spacing and number of occurrences. It is useful for regularly spaced holes, slots, ribs, and similar features.
+
 ### Polar Pattern
+Creates multiple copies of a feature **around a selected axis** at a specified angular spacing. It is commonly used for circular arrangements of holes, slots, or other repeated features.
+
 ### Multi-Transform
+Combines **multiple transformation operations** to create complex patterns from an existing feature. It allows transformations such as linear patterns, polar patterns, mirroring, and other supported transformations to be applied together.
 
 ## Related Links
 ### Examples
