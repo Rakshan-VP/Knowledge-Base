@@ -9,7 +9,7 @@ FreeCAD is a **parametric 3D CAD application** where models are built by definin
 
 The FreeCAD interface is divided into several key areas, each serving a specific role in the design workflow.
 
-![[FreeCAD.png|875]]
+![[FreeCAD.png|1166]]
 
 - **Menu Bar** — Provides access to application commands, settings, and document operations.  
   *Examples: `File → Save`, `Edit → Preferences`, `View → Panels`.*
@@ -36,7 +36,7 @@ The FreeCAD interface is divided into several key areas, each serving a specific
 
 Sketches are the foundation of parametric modeling in FreeCAD: **geometrically correct, properly constrained, and easy to modify.**
 
-![[Sketches.png|875]]
+![[Sketches.png|1166]]
 
 ### Setup
 
