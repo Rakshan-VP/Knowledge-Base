@@ -4,6 +4,7 @@
 
 ## Overview
 FreeCAD is a **parametric 3D CAD application** where models are built by defining sketches, applying constraints, and creating feature-based solids. This note provides the essential setup and fundamental tools needed to establish a smooth and reliable modeling workflow.
+**Current Version : 1.1.3**
 
 ## FreeCAD GUI
 
