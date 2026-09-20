@@ -1,10 +1,11 @@
-#type/method #domain/software #status/completed #scope/fundamental
+#type/method #domain/CAD #status/completed #scope/fundamental
 > [!abstract] Summary 
 > This note covers the **fundamental FreeCAD tools, interface, settings, and sketching practices** required to build stable parametric models. It also introduces the basic Part Design features used to create and modify 3D solids.
 
 ## Overview
 FreeCAD is a **parametric 3D CAD application** where models are built by defining sketches, applying constraints, and creating feature-based solids. This note provides the essential setup and fundamental tools needed to establish a smooth and reliable modeling workflow.
-**Current Version : 1.1.3**
+
+**FreeCAD Version : 1.1.3**
 
 ## FreeCAD GUI
 
@@ -232,6 +233,7 @@ Sketch → Pad/Pocket → Fillet/Chamfer → Mirror (if symmetric)
 ### Examples
 ### Notes
 - [[Part Design - Advanced Features]]
+- [[Parametric Modelling via Spreadsheets]]
 ### External
 - [Deltahedra|New to FreeCAD? Start HERE (Ultimate Beginner Tutorial)](https://www.youtube.com/watch?v=KmtqNaGPiiQ)
 - [Wiki|Basic Part Design Tutorial](https://wiki.freecad.org/Basic_Part_Design_Tutorial)

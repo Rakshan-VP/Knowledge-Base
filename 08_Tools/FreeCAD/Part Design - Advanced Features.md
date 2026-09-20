@@ -1,10 +1,12 @@
-#type/method #domain/software #status/completed #scope/intermediate
+#type/method #domain/CAD #status/completed #scope/intermediate
 > [!abstract] Summary 
 > This note covers the **intermediate Part Design tools in FreeCAD** used to create more complex parametric models. It focuses on advanced additive and subtractive operations, feature transformations, dress-up operations, Boolean features, and reference geometry.
 
 ## Overview 
 
 After the basic **Sketch → Pad/Pocket** workflow, FreeCAD provides several tools for creating more complex geometry and controlling how features interact with a model. This note introduces tools such as **Revolution, Pipe, Loft, Groove, Thickness, Draft, MultiTransform, Boolean operations, and Datum features**, along with their typical applications in parametric modeling.
+
+**FreeCAD Version : 1.1.3**
 
 ## Helper Features
 
@@ -223,6 +225,7 @@ Combines **multiple transformation operations** to create complex patterns from 
 ### Examples
 ### Notes
 - [[Basic Tools & Settings]]
+- [[Parametric Modelling via Spreadsheets]]
 ### External
 - [Wiki|PartDesign Workbench](https://wiki.freecad.org/PartDesign_Workbench)
 - [Wiki|PartDesign Revolution](https://wiki.freecad.org/PartDesign_Revolution)
