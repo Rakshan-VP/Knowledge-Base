@@ -1,4 +1,4 @@
-#type/method #domain/CAD #status/completed #scope/fundamental
+#type/concept #domain/CAD #status/completed #scope/fundamental
 > [!abstract] Summary 
 > This note covers the **Shape Appearance** properties in FreeCAD (introduced in FreeCAD 1.0/newer versions), detailing how six core material attributes control light interaction and surface aesthetics.
 
