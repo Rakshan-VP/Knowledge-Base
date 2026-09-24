@@ -1,3 +1,8 @@
 #index
 
-[[Gaussian Distribution]]
+## Linear Algebra
+- [[SVD]]
+
+## Probability & Statistics
+- [[Statistical Measures]]
+- [[Gaussian Distribution]]
