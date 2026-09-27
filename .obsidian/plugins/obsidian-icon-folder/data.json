@@ -43,7 +43,6 @@
   "98_Inbox": "LiInbox",
   "99_Archives": "RiInboxArchiveLine",
   "97_Attachments": "RiAttachment2",
-  "07_Setup": "TiSettingsUp",
-  "08_Tools": "RiToolsFill",
-  "05_Computer_Hardware": "LiCpu"
+  "05_Computer_Hardware": "LiCpu",
+  "07_Tools": "RiToolsFill"
 }
