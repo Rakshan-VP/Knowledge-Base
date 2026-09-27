@@ -1,7 +1,7 @@
 #index 
 
 ## Setup
-
+- [[My Software Stack]]
 
 ## FreeCAD
 - [[Basic Tools & Settings]]
