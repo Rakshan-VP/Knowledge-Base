@@ -9,7 +9,7 @@ The main entry points into the vault.
 - [[Robotics]]
 - [[Control]]
 - [[Programming]]
-- [[Computer Science]]
+- [[Computer Hardware]]
 - [[AI]]
 - [[Setup]]
 - [[Tools]]
