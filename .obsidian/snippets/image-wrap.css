@@ -1,0 +1,22 @@
+/* Left image */
+img[alt="left"] {
+    float: left;
+    margin: 0 40px 8px 0;
+}
+
+/* Right image */
+img[alt="right"] {
+    float: right;
+    margin: 0 0 8px 40px;
+}
+
+/* Stop text wrapping around the image */
+.clear {
+    clear: both;
+}
+
+img[alt="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

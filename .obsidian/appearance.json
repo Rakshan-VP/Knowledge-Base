@@ -7,7 +7,9 @@
     "tags",
     "colors",
     "floatingpanels",
-    "format"
+    "format",
+    "image-wrap",
+    "navigation"
   ],
   "theme": "obsidian",
   "showRibbon": false,

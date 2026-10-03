@@ -1,0 +1,27 @@
+.note-nav {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+    margin-top: 24px;
+    padding: 10px 14px;
+
+    border: 1px solid #454b48;
+    border-radius: 5px;
+
+    background: rgba(80, 90, 85, 0.08);
+}
+
+.note-nav .next-note {
+    float: right;
+}
+
+.note-nav a {
+    color: #89958F !important;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+.note-nav a:hover {
+    color: #B0BAB5 !important;
+}
