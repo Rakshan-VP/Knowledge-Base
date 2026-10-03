@@ -1,4 +1,4 @@
-#type/concept #domain/hardware #status/learning #scope/fundamental 
+#type/concept #domain/hardware #status/completed #scope/fundamental 
 > [!abstract] Summary
 > **Transistors** are tiny electronic switches that turn electrical signals **on and off**, and billions of them wired together perform the **logic operations** that let a CPU compute. Modern chips pack these switches at **nanometer scale**, enabling the speed and complexity of today's processors. Every calculation a computer does ultimately boils down to patterns of transistors switching states.
 
@@ -185,7 +185,7 @@ From now on:
 
 ### NPN Transistor Logic
 
-For the following circuits, we will use an NPN transistor as a switch:
+For the upcoming circuits, we will use an NPN transistor as a switch:
 
 - **Base** → Input
 - **Collector** → Output
@@ -196,7 +196,7 @@ For the following circuits, we will use an NPN transistor as a switch:
 |:---:|:---:|:---:|
 | `0` | OFF | `1` |
 | `1` | ON | `0` |
-
+![center](notgate.gif)
 When the input is `0`, the transistor is OFF and the pull-up resistor makes the Collector `1`.
 
 When the input is `1`, the transistor turns ON and pulls the Collector toward GND, making the output `0`.
@@ -232,4 +232,4 @@ Before building the logic gates, we will first look at **Boolean algebra**, and 
 - [tutorialspoint|Basic Electronics - Types of Transistors](https://www.tutorialspoint.com/basic_electronics/basic_electronics_types_of_transistors.htm)
 - [Intel|The Transistor,Explained](https://www.intel.com/content/www/us/en/newsroom/tech101/the-transistor-explained.html)
 
-<span class="note-nav">[[Transistors|◀ Previous Note]] <span class="next-note">[[Logic Gates|Next Note ▶]]</span></span>
+<span class="note-nav">[[Transistors|◀ Previous Note]] <span class="next-note">[[Boolean Algebra|Next Note ▶]]</span></span>
