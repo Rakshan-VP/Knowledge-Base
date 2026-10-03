@@ -223,9 +223,8 @@ The output is taken from the **Collector** because the Collector voltage changes
 > The Collector is connected to `VCC` through a **pull-up resistor**, not directly.
 
 Before building the logic gates, we will first look at **Boolean algebra**, and then use NPN transistors to implement the corresponding logic gates. After that, we will study **CMOS logic** using NMOS and PMOS transistors.
-## Related Links
-### Notes
 
+## Related Links
 ### External
 - [GeeksforGeeks|Transistor](https://www.geeksforgeeks.org/electronics-engineering/what-is-transistor/#how-do-transistors-work)
 - [GeeksforGeeks|Difference Between BJT and FET](https://www.geeksforgeeks.org/electrical-engineering/difference-between-bjt-and-fet/)
