@@ -112,7 +112,7 @@ There are two main channel types:
 - **N-channel MOSFET**
 - **P-channel MOSFET**
 
-![center|875](mosfetmodes.png)
+![center|800](nmos.gif)
 
 MOSFETs operate in two modes:
 - **Enhancement mode** — Normally OFF; an appropriate Gate voltage creates a conducting channel.
@@ -147,7 +147,82 @@ In both types:
 
 Therefore, a MOSFET is a **voltage-controlled device**.
 
+## BJT vs FET
 
+| **Property**      | **BJT**                                                 | **FET**                                                             |
+| ----------------- | ------------------------------------------------------- | ------------------------------------------------------------------- |
+| Full form         | Bipolar Junction Transistor                             | Field-Effect Transistor                                             |
+| Control           | Current-controlled                                      | Voltage-controlled                                                  |
+| Input impedance   | Low to moderate                                         | Very high                                                           |
+| Input current     | Requires base current                                   | Very little gate current                                            |
+| Power consumption | Higher at input                                         | Very low at input                                                   |
+| Switching speed   | Generally lower                                         | Generally higher                                                    |
+| Noise             | Generally higher                                        | Generally lower                                                     |
+| Thermal stability | More prone to thermal runaway                           | Generally better                                                    |
+| Gain              | High current gain                                       | High voltage gain                                                   |
+| Size              | Larger                                                  | Smaller                                                             |
+| Integration       | Good                                                    | Excellent                                                           |
+| Main types        | NPN, PNP                                                | JFET, MOSFET                                                        |
+| Main advantage    | High transconductance and good linearity                | Very high input impedance and low power consumption                 |
+| Main disadvantage | Requires input current and has thermal-runaway concerns | Sensitive to static/ESD, and some types have lower transconductance |
+
+## Transistors Used in CPUs
+Different types of transistors have been used in CPUs throughout the development of computing:
+
+| Type | Transistors | Usage |
+|---|---|---|
+| **BJT** | NPN, PNP | Early transistorized computers |
+| **MOSFET** | NMOS, PMOS | Modern CPUs |
+| **FinFET** | NMOS, PMOS | Modern CPU processes |
+| **GAA / Nanosheet** | NMOS, PMOS | Newer CPU processes |
+
+Modern CPUs use **MOSFET-based CMOS logic**, where **NMOS and PMOS** transistors work together. We will first use **NPN transistors** to understand how transistor-level logic works, and later move to CMOS.
+
+### Digital Logic Convention
+From now on:
+- **High voltage = `1`**
+- **Low voltage = `0`**
+
+### NPN Transistor Logic
+
+For the following circuits, we will use an NPN transistor as a switch:
+
+- **Base** → Input
+- **Collector** → Output
+- **Emitter** → GND (`0`)
+- **Collector** → `VCC (1)` through a pull-up resistor
+
+| Input | Transistor | Output |
+|:---:|:---:|:---:|
+| `0` | OFF | `1` |
+| `1` | ON | `0` |
+
+When the input is `0`, the transistor is OFF and the pull-up resistor makes the Collector `1`.
+
+When the input is `1`, the transistor turns ON and pulls the Collector toward GND, making the output `0`.
+
+$$
+IN = 0 \Rightarrow OUT = 1
+$$
+
+$$
+IN = 1 \Rightarrow OUT = 0
+$$
+
+Therefore:
+
+$$
+OUT = \overline{IN}
+$$
+
+This is the basic **NOT gate**.
+
+The output is taken from the **Collector** because the Collector voltage changes between `VCC` and GND depending on whether the transistor is OFF or ON.
+
+> [!NOTE]
+> The Collector is connected to `VCC` through a **pull-up resistor**, not directly.
+
+Before building the logic gates, we will first look at **Boolean algebra**, and then use NPN transistors to implement the corresponding logic gates. After that, we will study **CMOS logic** using NMOS and PMOS transistors.
 ## Related Links
 ### Notes
 
@@ -155,7 +230,6 @@ Therefore, a MOSFET is a **voltage-controlled device**.
 - [GeeksforGeeks|Transistor](https://www.geeksforgeeks.org/electronics-engineering/what-is-transistor/#how-do-transistors-work)
 - [GeeksforGeeks|Difference Between BJT and FET](https://www.geeksforgeeks.org/electrical-engineering/difference-between-bjt-and-fet/)
 - [tutorialspoint|Basic Electronics - Types of Transistors](https://www.tutorialspoint.com/basic_electronics/basic_electronics_types_of_transistors.htm)
-
-
+- [Intel|The Transistor,Explained](https://www.intel.com/content/www/us/en/newsroom/tech101/the-transistor-explained.html)
 
 <span class="note-nav">[[Transistors|◀ Previous Note]] <span class="next-note">[[Logic Gates|Next Note ▶]]</span></span>
