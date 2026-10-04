@@ -67,11 +67,13 @@ Again, a **small Base current controls a much larger Collector-Emitter current**
 | Typical use              | Low-side switching  | High-side switching |
 
 ## Field-Effect Transistor (FET)
-A **FET (Field-Effect Transistor)** is a three-terminal semiconductor device used mainly for **switching and amplification**. A FET has three terminals:
+A **FET (Field-Effect Transistor)** is a three-terminal semiconductor device used mainly for **switching and amplification**. 
+
+![center|875](fet_types.jpg)
+A FET has three terminals:
 - **Gate (G)** — Controls the current flowing through the transistor.
 - **Drain (D)** — The terminal through which current flows into the channel.
 - **Source (S)** — The terminal through which current flows out of the channel.
-
 Unlike a BJT, a FET is a **voltage-controlled device**. The voltage applied to the Gate controls the current flowing between the Drain and Source.
 
 ### JFET
