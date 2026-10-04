@@ -12,6 +12,7 @@ The main entry points into the vault.
 - [[Computer Hardware]]
 - [[AI]]
 - [[Tools]]
+- [[Electronics]]
     
 ## Quick Access
 
