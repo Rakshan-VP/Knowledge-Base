@@ -135,12 +135,12 @@
       "color": "_PcBPQgimHC-TnaPhiBVm"
     },
     {
-      "path": "05_Computer_Hardware",
-      "color": "H7Bv1TbbMFq7ID0KdmJRC"
+      "path": "06_Computer_Hardware",
+      "color": "i-7FErkFCeFF20g_JUuGW"
     },
     {
-      "path": "06_AI",
-      "color": "i-7FErkFCeFF20g_JUuGW"
+      "path": "09_AI",
+      "color": "PoPmIB9MWexUo-SK_LIQv"
     },
     {
       "path": "99_Archives",
@@ -155,12 +155,16 @@
       "color": "W6vYMAAXIhdFGeiJgN73o"
     },
     {
-      "path": "07_Tools",
+      "path": "08_Tools",
       "color": "cvr5uiaATXY8GAUzdCrNt"
     },
     {
-      "path": "08_Electronics",
-      "color": "cvr5uiaATXY8GAUzdCrNt"
+      "path": "05_Electronics",
+      "color": "H7Bv1TbbMFq7ID0KdmJRC"
+    },
+    {
+      "path": "07_Embedded_Systems",
+      "color": "c8BZihwIqVmUFBrm0rtiV"
     }
   ]
 }
