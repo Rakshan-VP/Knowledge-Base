@@ -11,7 +11,7 @@ The main entry points into the vault.
 - [[Programming]]
 - [[Electronics]]
 - [[Computer Hardware]]
-- [[07_Embedded_Systems/Embedded Systems]]
+- [[Embedded Systems]]
 - [[AI]]
 - [[Tools]]
 
