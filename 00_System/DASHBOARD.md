@@ -14,8 +14,8 @@ The main entry points into the vault.
 - [[Embedded Systems]]
 - [[AI]]
 - [[Tools]]
+- [[Guides]]
 
-    
 ## Quick Access
 
 - [[Configuration]]
