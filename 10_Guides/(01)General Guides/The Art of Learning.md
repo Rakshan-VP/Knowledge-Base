@@ -74,11 +74,11 @@ Knowledge is built in **layers**. Each layer uses the one below it by *what it d
 
 ```mermaid
 flowchart TD
-    A[Ask] --> B[Find answer]
+    A([Ask]) --> B[Find answer]
     B --> C[Explain or build]
-    C --> D[Find the gap]
+    C --> D{Find the gap}
     D -->|gap found| A
-    D -->|convinced| E[Done]
+    D -->|convinced| E([Done])
 ```
 
 | Step | What you do |
@@ -107,3 +107,4 @@ flowchart TD
 ### External
 - [Beyond Potential | The Art of Becoming Dangerously Self-Educated](https://www.youtube.com/watch?v=48HQUVRlreQ)
 - [Realith | The Art of Becoming Dangerously Self-Educated](https://www.youtube.com/watch?v=w8Qv9czi7j8)
+
