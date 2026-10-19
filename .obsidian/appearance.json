@@ -8,8 +8,8 @@
     "colors",
     "floatingpanels",
     "format",
-    "image-wrap",
-    "navigation"
+    "navigation",
+    "mermaidcenter"
   ],
   "theme": "obsidian",
   "showRibbon": false,
