@@ -1,5 +1,4 @@
 #type/guide #domain/general #status/completed #scope/fundamental
-
 > [!abstract] Key Takeaways
 > Learn through a loop of **asking, explaining in your own words, and building**, not by following a syllabus. Use layers to decide where to start, and use the right source for each job.
 
