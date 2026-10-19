@@ -16,10 +16,21 @@ The main entry points into the vault.
 - [[Tools]]
 - [[Guides]]
 
-## Quick Access
-
-- [[Configuration]]
-- [[Test]]
+## Recently Added
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Note",
+  dateformat(file.ctime, "dd MMM yyyy") AS "Added On"
+FROM ""
+WHERE !contains(file.tags, "#index")
+  AND file.path != this.file.path
+  AND file.name != "README"
+  AND !startswith(file.path, "97_Attachments/")
+  AND !startswith(file.path, "98_Inbox/")
+  AND !startswith(file.path, "99_Archives/")
+SORT file.ctime DESC
+LIMIT 5
+```
     
 > [!Note] Keep it simple  
 > Use Master Notes to organize knowledge and keep only master note links.

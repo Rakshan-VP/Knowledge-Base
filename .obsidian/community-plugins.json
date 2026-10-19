@@ -11,5 +11,6 @@
   "homepage",
   "texcore",
   "ninja-cursor",
-  "codeblock-customizer"
+  "codeblock-customizer",
+  "dataview"
 ]
