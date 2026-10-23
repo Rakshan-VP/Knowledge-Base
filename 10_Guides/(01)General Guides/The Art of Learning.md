@@ -12,7 +12,7 @@ This note builds a framework to close that gap, one question at a time: learn fa
 
 Knowledge is built in **layers**. Each layer uses the one below it by *what it does*, not *how it works*. That's a **black box**: you use input → output without looking inside.
 
-> [!example] CPU
+> [!example]- CPU
 > Transistors → Gates → Circuits → CPU → Instructions → Programs
 > A programmer treats the CPU as a black box. An adder designer treats a gate as one. "Gates take 0s and 1s and return 0s and 1s" is enough to understand a CPU.
 
@@ -56,7 +56,7 @@ Knowledge is built in **layers**. Each layer uses the one below it by *what it d
 | **Project** | Motivation, real skill | Gaps, blind copying |
 | **Simulation** | Instant feedback, free to fail | Can stay a toy |
 
-> [!example] Learning a CPU
+> [!example]- Learning a CPU
 > Build a gate in a simulator → build an adder → combine into an ALU → a tiny CPU. You walk up the layers by building each one.
 
 **Simulators**
@@ -91,7 +91,7 @@ flowchart TD
 > [!warning] AI answers. You explain.
 > If AI also writes your notes, the thinking is skipped, and thinking is what makes it stick.
 
-> [!example] How does an adder work?
+> [!example]- How does an adder work?
 > **Ask:** How does a computer add numbers? → **Answer:** half and full adders → **Build:** half adder in Logisim, notes in own words → **Gap:** why is there a carry output? → **Ask:** why carry matters for multi-bit addition → **Build:** 4-bit adder, output matches prediction → **Convinced.**
 
 > [!tip] Test for "convinced"
