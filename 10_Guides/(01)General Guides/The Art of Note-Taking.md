@@ -79,3 +79,7 @@ I use a **mapping approach** because I keep all my notes in a single Obsidian va
 
 >[!tip] Final Principle
 Write notes to make knowledge easier to understand and use, not to make your collection bigger.
+
+## Related Links
+### External
+- [Vicky Zhao|How To Take Smart Notes (3 methods no one's talking about)](https://www.youtube.com/watch?v=5O46Rqh5zHE)
