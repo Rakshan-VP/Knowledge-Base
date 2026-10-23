@@ -2,6 +2,8 @@
 
 This folder contains notes organized as an **Obsidian Vault**.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1142d251-ea64-4efa-9bf1-e9a85407bdd5" />
+
 ## Getting Started
 
 1. Download and install [Obsidian](https://obsidian.md/download).
