@@ -1,5 +1,4 @@
 #type/guide #domain/general #status/completed #scope/fundamental
-
 > [!abstract] Key Takeaways
 > Good notes are built to **explain, connect, and resolve questions**, not to copy information. Focus on clarity, essential knowledge, and your own understanding.
 
