@@ -16,7 +16,7 @@ Write in your own words and structure. Don't simply rephrase a source sentence b
 ### 2. Focus on Essentials
 Start with the fundamental idea and include the theory necessary to understand it. Once the basics are clear, organize additional explanations around specific questions.
 
-> [!example] Learning PID Control
+> [!example]- Learning PID Control
 > First explain what PID is and how P, I, and D work. Then add focused sections:
 > - What causes integral windup?
 > - How does anti-windup work?
@@ -34,7 +34,7 @@ The goal is not to include everything known about a topic. It is to explain the 
 ### 4. Connect Notes When Useful
 Connections should help explain a concept or provide necessary background. Don't link every related topic just because a relationship exists.
 
-> [!example] Kalman Filter
+> [!example]- Kalman Filter
 > You may need a note on Gaussian distributions to understand measurement uncertainty. That doesn't mean you need to connect every topic in statistics to the Kalman filter.
 
 **Let connections grow naturally as your knowledge expands.** Don't sacrifice clear notes to build a perfect-looking knowledge graph.
@@ -42,7 +42,7 @@ Connections should help explain a concept or provide necessary background. Don't
 ### 5. Record Questions and Difficulties
 Your learning experience is valuable. Record the questions that confused you, the assumptions you got wrong, and how you resolved them.
 
-> [!example]
+> [!example]-
 > **Question:** Why can increasing PID gain cause oscillations?
 >
 > **Resolution:** Explain how stronger corrections can cause overshoot and how system dynamics affect stability.
