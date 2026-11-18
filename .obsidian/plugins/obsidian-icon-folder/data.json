@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDrill",
+      "SiKicad",
       "LiCheckCircle2",
       "LiMicrochip",
-      "SiElectron",
-      "SiCapacitor",
-      "RiToolsFill"
+      "SiElectron"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,5 +47,6 @@
   "09_AI": "SiGooglegemini",
   "08_Tools": "RiToolsFill",
   "07_Embedded_Systems": "LiMicrochip",
-  "10_Guides": "LiCheckCircle2"
+  "10_Guides": "LiCheckCircle2",
+  "11_Manufacturing": "LiDrill"
 }
